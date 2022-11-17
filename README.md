@@ -37,7 +37,7 @@
 | Para             | Gerente da DSPS, skatistas, familiares de crianças, pessoas que gostam de roupas de skate.                                           |
 | Quem             | Loja De Skatista Para Skatista                                                                                                       |
 | O DSPS_Skateshop | É uma solução cliente-servidor                                                                                                       |
-| Que              | vende tênis, roupas, acessórios e outros produtos relacionados a skate.                                                              |
+| Que              | vende tênis, roupas, acessórios e outros produtos relacionados a skate.                                                              |RUP
 | Ao contrário     | de outras lojas virtuais de Brasília, que somente vendem produtos e acessórios relacionados a skate,                                 |
 | Nosso produto    | mostra vídeos de atletas brasilienses que patrocinamos, disponibiliza peças de skate velhas para doação e tem uma interface simples. |
 
@@ -110,15 +110,15 @@
 
 ## Slides
 
-![Slide 01 - RUP](imagens/slide1.jpg)
-![Slide 02 - RUP](imagens/slide2.jpg)
-![Slide 03 - RUP](imagens/slide3.jpg)
-![Slide 04 - RUP](imagens/slide4.jpg)
-![Slide 05 - RUP](imagens/slide5.jpg)
-![Slide 06 - RUP](imagens/slide6.jpg)
-![Slide 07 - RUP](imagens/slide7.jpg)
-![Slide 08 - RUP](imagens/slide8.jpg)
-![Slide 09 - RUP](imagens/slide9.jpg)
+![Slide 01 - RUP](imagens/slide1RUP.jpg)
+![Slide 02 - RUP](imagens/slide2RUP.jpg)
+![Slide 03 - RUP](imagens/slide3RUP.jpg)
+![Slide 04 - RUP](imagens/slide4RUP.jpg)
+![Slide 05 - RUP](imagens/slide5RUP.jpg)
+![Slide 06 - RUP](imagens/slide6RUP.jpg)
+![Slide 07 - RUP](imagens/slide7RUP.jpg)
+![Slide 08 - RUP](imagens/slide8RUP.jpg)
+![Slide 09 - RUP](imagens/slide9RUP.jpg)
 
 ## Vídeo de Apresentação
 
