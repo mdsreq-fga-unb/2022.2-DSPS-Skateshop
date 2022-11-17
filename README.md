@@ -55,9 +55,9 @@
 
 | Papel                         | Atribuições      | Responsável      | Participantes                           |
 |------------------------------ | ---------------- | ---------------- | --------------------------------------- |
-| Desenvolvedor Front-end      | Desenvolver o produto na parte visual, manipulando os dados, para mostrar ao cliente de forma legível, e enviar ao backend de forma bem estruturada. | Lucas Sales      | Lucas Sales, Daniel Rocha               |
-| DBA (Database Administrator) | Desenvolver banco de dados, tabelas, relações entre as mesmas, e demais necessidades de banco.                                                       | Leonardo Miranda |   Leonardo Miranda       |
-| Desenvolvedor Back-end       | Desenvolver conversação com o banco de dados, manusear os dados, para serem inseridos no banco, e apresentados no front-end.                         | Luiz Gustavo     | Luiz Gustavo, Bruno Kishibe, Dion Vitor |
+| Desenvolvedor Front-end       | Desenvolver o produto na parte visual, manipulando os dados, para mostrar ao cliente de forma legível, e enviar ao backend de forma bem estruturada. | Lucas Sales  | Lucas Sales, Daniel Rocha |
+| DBA (Database Administrator)  | Desenvolver banco de dados, tabelas, relações entre as mesmas, e demais necessidades de banco.| Leonardo Miranda | Leonardo Miranda |
+| Desenvolvedor Back-end       | Desenvolver conversação com o banco de dados, manusear os dados, para serem inseridos no banco, e apresentados no front-end. | Luiz Gustavo     | Luiz Gustavo, Bruno Kishibe, Dion Vitor |
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
