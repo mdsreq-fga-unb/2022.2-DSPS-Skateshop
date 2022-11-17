@@ -52,6 +52,7 @@
 ## 2. Visão Geral do Projeto
 
 ### 2.1 Organização do Projeto
+
 | Papel                         | Atribuições      | Responsável      | Participantes                           |
 |------------------------------ | ---------------- | ---------------- | --------------------------------------- |
 | Desenvolvedor Front-end      | Desenvolver o produto na parte visual, manipulando os dados, para mostrar ao cliente de forma legível, e enviar ao backend de forma bem estruturada. | Lucas Sales      | Lucas Sales, Daniel Rocha               |
