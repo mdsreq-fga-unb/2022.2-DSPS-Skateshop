@@ -97,3 +97,15 @@
     <li>A equipe não conseguir entregar o que está se propondo: Caso a equipe não consiga entregar o que está sendo combinado, teremos de replanejar nossa abordagem, talvez fazer mais acompanhamentos, ou diminuir a carga do backlog das sprints.</li>
     <li>Termos retirada do DBA do projeto, nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em querys SQL, para que utilizemos o banco de dados de forma adequada. </li>
 </ul>
+
+## Slides
+
+![Slide 01 - RUP](imagens/slide1.jpg)
+![Slide 02 - RUP](imagens/slide2.jpg)
+![Slide 03 - RUP](imagens/slide3.jpg)
+![Slide 04 - RUP](imagens/slide4.jpg)
+![Slide 05 - RUP](imagens/slide5.jpg)
+![Slide 06 - RUP](imagens/slide6.jpg)
+![Slide 07 - RUP](imagens/slide7.jpg)
+![Slide 08 - RUP](imagens/slide8.jpg)
+![Slide 09 - RUP](imagens/slide9.jpg)
