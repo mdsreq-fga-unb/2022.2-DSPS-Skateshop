@@ -109,3 +109,13 @@
 ![Slide 07 - RUP](imagens/slide7.jpg)
 ![Slide 08 - RUP](imagens/slide8.jpg)
 ![Slide 09 - RUP](imagens/slide9.jpg)
+
+## 4. LIÇÕES APRENDIDAS
+
+### 4.1 Unidade 1
+
+<ul>
+    <li>Aprender como conversar com o cliente, para que ele nos diga o que ele precisa, que conversar balela, constrói relacionamento, e isso é positivo para o projeto.</li>
+    <li>Abordagens de desenvolvimento de software, e para qual caso, cada uma se adequaria.</li>
+    <li>Teoria da engenharia de requisitos</li>
+</ul>
