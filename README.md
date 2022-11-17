@@ -80,8 +80,7 @@
 -Alinhamento de expectativas e requisitos para próxima sprint | -Equipe do projeto 
 <br /> -Cliente | -Quinzenal   | -Ata de reunião 
 <br /> -Lista de requisitos candidatos a estar no backlog da próxima sprint|
-| - Comunicar situação do projeto | - Equipe 
-- Prof.                        | - Semanal  | - Relatório de situação do projeto |
+| - Comunicar situação do projeto | - Equipe  <br /> - Prof.                        | - Semanal  | - Relatório de situação do projeto |
  
 
 ### 2.4 Gerenciamento de Riscos
@@ -92,7 +91,7 @@
     <li>Risco leve: Bug’s gerados por falta de atenção, não previstos, que são fáceis de arrumar, serão tratados na sprint em que foram identificados.</li>
     <li>Risco mediano: Problema com uma complexidade maior, afeta parte do sistema, mas temos uma noção de como resolvê-lo, serão orçados em conjunto do time e do cliente, podendo ser resolvidos na sprint em que foram identificados, ou na seguinte, demandando mais atenção e cuidado.</li>
     <li>Risco grave: Problema de alta complexidade, que afeta a integridade ou segurança do sistema, que a equipe não sabe como resolver. O desenvolvimento é interrompido, e a equipe se dispõe a resolver o problema o mais rápido possível, de forma eficiente, para que o desenvolvimento seja retomado, sem maiores problemas. </li>
-<ul>
+</ul>
 
 ### 2.5 Critérios de Replanejamento
 
@@ -100,4 +99,4 @@
     <li>A necessidade do cliente mudar: Caso este cenário ocorra, precisaremos replanejar o produto, para que atenda às novas necessidades do cliente.</li>
     <li>A equipe não conseguir entregar o que está se propondo: Caso a equipe não consiga entregar o que está sendo combinado, teremos de replanejar nossa abordagem, talvez fazer mais acompanhamentos, ou diminuir a carga do backlog das sprints.</li>
     <li>Termos retirada do DBA do projeto, nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em querys SQL, para que utilizemos o banco de dados de forma adequada. </li>
-<ul>
+</ul>
