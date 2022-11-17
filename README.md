@@ -75,11 +75,7 @@
 | Descrição   | Área/Envolvidos                       | Periodicidade | Produtos Gerados |
 | -------- | ----------------------------- | ----------- | -------- |
 | - Acompanhamento das Atividades em Andamento <br /> - Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | - Equipe do Projeto           | - Quinzenal | -Possíveis requisitos/tasks pendentes a serem resolvidos na próxima sprint |
-| -Relatório do produto; 
-<br /> -Parecer do estado atual do produto; 
--Alinhamento de expectativas e requisitos para próxima sprint | -Equipe do projeto 
-<br /> -Cliente | -Quinzenal   | -Ata de reunião 
-<br /> -Lista de requisitos candidatos a estar no backlog da próxima sprint|
+| -Relatório do produto; <br /> -Parecer do estado atual do produto; <br /> -Alinhamento de expectativas e requisitos para próxima sprint | -Equipe do projeto  <br /> -Cliente | -Quinzenal   | -Ata de reunião  <br /> -Lista de requisitos candidatos a estar no backlog da próxima sprint|
 | - Comunicar situação do projeto | - Equipe  <br /> - Prof.                        | - Semanal  | - Relatório de situação do projeto |
  
 
