@@ -32,7 +32,7 @@
 
 <p>É uma loja online de produtos para skate onde também é possível achar tênis, roupas e acessórios. Os vídeos dos atletas patrocinados pela loja podem ser visualizados no site. Além disso, há uma seção para a comunidade do skate conferir peças velhas disponíveis para doação.</p>
 
-| Software         | ElectroFarm                                                                                                                          |
+| Software         | VolatiLoja                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Para             | Gerente da DSPS, skatistas, familiares de crianças, pessoas que gostam de roupas de skate.                                           |
 | Quem             | Loja De Skatista Para Skatista                                                                                                       |
