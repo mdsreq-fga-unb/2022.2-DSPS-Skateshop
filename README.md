@@ -1,13 +1,3 @@
-<h1 align="center">Volati-Loja</h1>
-
-<h3 align="center">2022.2</h3>
-
-<br>
-
-<p align="center">
-<img src="https://img.shields.io/static/v1?label=STATUS&message=IN%20PROGESS&color=GREEN&style=for-the-badge"/>
-</p>
-
 # Índice
 - [Equipe](#equipe🚀)
 <h1 align="center">Volati-Loja</h1>
@@ -80,4 +70,4 @@
 | Sprint 4 | Desenvolvimento de funcionalidades a serem definidas                                                 | 02/01/23  | 13/01/23 |
 | Sprint 5 | Desenvolvimento de funcionalidades a serem definidas                                                 | 16/01/23  | 27/01/23 |
 | Sprint 6 | Desenvolvimento de funcionalidades a serem definidas, configuração do ambiente de produção de deploy | 30/01/23  | 10/02/23 |
-| Revisão  | Tratamento de últimos erros, e ajustes mínimos           
+| Revisão  | Tratamento de últimos erros, e ajustes mínimos                                                       | 13/02/23  | 16/02/23 |   
