@@ -119,3 +119,7 @@
 ![Slide 07 - RUP](imagens/slide7.jpg)
 ![Slide 08 - RUP](imagens/slide8.jpg)
 ![Slide 09 - RUP](imagens/slide9.jpg)
+
+## Vídeo de Apresentação
+
+![Apresentação Grupo 4](https://www.youtube.com/watch?v=q58NaI23ZHM)
