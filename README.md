@@ -1,5 +1,3 @@
-# Índice
-- [Equipe](#equipe🚀)
 <h1 align="center">Volati-Loja</h1>
 
 <h3 align="center">2022.2</h3>
