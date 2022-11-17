@@ -95,7 +95,7 @@
 <ul>
     <li>A necessidade do cliente mudar: Caso este cenário ocorra, precisaremos replanejar o produto, para que atenda às novas necessidades do cliente.</li>
     <li>A equipe não conseguir entregar o que está se propondo: Caso a equipe não consiga entregar o que está sendo combinado, teremos de replanejar nossa abordagem, talvez fazer mais acompanhamentos, ou diminuir a carga do backlog das sprints.</li>
-    <li>Termos retirada do DBA do projeto, nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em querys SQL, para que utilizemos o banco de dados de forma adequada. </li>
+    <li>Termos retirada do DBA do projeto, nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em queries SQL, para que utilizemos o banco de dados de forma adequada. </li>
 </ul>
 
 ## 4. LIÇÕES APRENDIDAS
