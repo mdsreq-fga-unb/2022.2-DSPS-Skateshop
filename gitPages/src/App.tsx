@@ -1,7 +1,14 @@
-import { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import RoutesComponent from "./routes";
+import GlobalStyle from "./styles/global";
 
-const App = (): JSX.Element => {
-  return <h1>teste vite</h1>;
-};
+function App(): JSX.Element {
+  return (
+    <BrowserRouter basename="/2022.2-DSPS-Skateshop/">
+      <RoutesComponent />
+      <GlobalStyle />
+    </BrowserRouter>
+  );
+}
 
 export default App;
