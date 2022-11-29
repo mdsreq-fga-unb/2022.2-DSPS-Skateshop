@@ -8,9 +8,6 @@
 <img src="https://img.shields.io/static/v1?label=STATUS&message=IN%20PROGESS&color=GREEN&style=for-the-badge"/>
 </p>
 
-# Índice
-- [Equipe](#equipe🚀)
-
 # Equipe🚀
 
 | Nome                                                              | Matrícula   |  Disciplina |
