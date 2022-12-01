@@ -1,4 +1,4 @@
-<h1 align="center">Volati-Loja</h1>
+<h1 align="center">DSPS Skateshop</h1>
 
 <h3 align="center">2022.2</h3>
 
