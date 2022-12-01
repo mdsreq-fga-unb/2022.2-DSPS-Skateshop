@@ -9,14 +9,6 @@
 
 <h2>Colaboradores</h2>
 
-<!-- 
-Arquiteto: rosa #FF00FF
-PO: azul #
-SM: marrom #
-Devops: verde-escuro #
-Desenvolvedor: amarelo #
--->
-
 <table>
   
   <tr>
