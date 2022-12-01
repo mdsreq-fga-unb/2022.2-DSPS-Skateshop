@@ -4,18 +4,15 @@
 ----------------------------------------------------
 ### _**Projeto**_
 
-- [Visão do Produto e Projeto](pages/VisãodoProdutoeProjeto.md)
+- [Visão do Produto e Projeto](pages/Visoes.md)
 
 ----------------------------------------------------
 ### _**Entregas**_
 
 - Unidade 1 
-   - [Material do Seminário de Processos e Ciclos de Vida](pages/MaterialdoSemináriodoProcessoseCiclosdeVida.md)
-   - [Vídeo de Apresentação das Entregas](pages/VideoApresentacaoDasEntregas.md)
+   - [Material do Seminário de Processos e Ciclos de Vida](pages/SlidesSeminario.md)
+   - [Vídeo de Apresentação das Entregas](pages/VideoEntrega.md)
 ----------------------------------------------------
-### _**Equipe**_
-
-- [Alocação de Tarefas](pages/AlocacaoDeTarefas.md)
 
 
    
