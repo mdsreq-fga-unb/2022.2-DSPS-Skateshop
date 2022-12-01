@@ -13,4 +13,4 @@
 <p align="justify">
 Nossa documentação está disponível dentro do nosso GitHub Pages, lá mostramos nosso projeto e planejamento com detalhes e, a medida que o projeto avança, estaremos atualizando nosso GitHub Pages, por enquanto estamos na versão 1.0 do nosso GitHub Pages.
 </p>
-<b>Sinta-se a vontade para conferir nossa documentação, <a href="https://mdsreq-fga-unb.github.io/2022.2-DSPS-Skateshop/#/pages/Visoes">clique aqui</a>.</b>
+<b>Sinta-se a vontade para conferir nossa documentação, <a href="https://mdsreq-fga-unb.github.io/2022.2-DSPS-Skateshop/#/">clique aqui</a>.</b>
