@@ -1,12 +1,15 @@
+### _**Início**_
 - [Home](README.md)
 - [Objetivo](pages/objetivo.md)
 
 ----------------------------------------------------
 ### _**Projeto**_
+- Visões
+   - [Visão do Produto](pages/Visoes.md)
+   - [Visão de Projeto](pages/VisaoProj.md)
 
-- [Visão do Produto](pages/Visoes.md)
-- [Visão de Projeto](pages/VisaoProj.md)
-- [Lições](pages/Licoes.md)
+- Lições
+   - [Lições](pages/Licoes.md)
 ----------------------------------------------------
 ### _**Entregas**_
 

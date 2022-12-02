@@ -4,15 +4,6 @@ Versão 1.0
 
 <br>
 
-### **Histórico de Versões**
-
-| Data | Versão | Descrição | Autor |
-|------| ------ | --------- | ----- |
-| 27/11/2022 | 1.0 | Criada a primeira versão do GitPages | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
-| 02/12/2022 | 1.1 | Atualizando seções no GitPages | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
-
-<br>
-
 ### **Sumário**
  - [VISÃO GERAL DO PRODUTO](#visão-geral-do-produto)
     - 1.1 Declaração de Posição do Produto 
