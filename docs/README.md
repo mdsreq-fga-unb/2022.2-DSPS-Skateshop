@@ -13,7 +13,7 @@
   
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/brun0sk">
         <img src="https://avatars.githubusercontent.com/u/67489048?v=4" width="100px;" alt="Foto Bruno"/><br>
         <sub>
           <b>Bruno Seiji Kishibe</b>
@@ -21,7 +21,7 @@
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="https://github.com/DanRocha18">
         <img src="https://avatars.githubusercontent.com/u/71887425?v=4" width="100px;" alt="Foto Daniel"/><br>
         <sub>
           <b>Daniel Rocha Oliveira</b>
@@ -37,7 +37,7 @@
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="https://github.com/leomichalski">
         <img src="https://avatars.githubusercontent.com/u/23667720?v=4" width="100px;" alt="Foto Leo"/><br>
         <sub>
           <b>Leonardo Michalski Miranda</b>
@@ -45,7 +45,7 @@
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="https://github.com/Lux-Sales">
         <img src="https://avatars.githubusercontent.com/u/54609118?v=4" width="100px;" alt="Foto Lucas"/><br>
         <sub>
           <b>Lucas Sales Ribeiro</b>
@@ -53,7 +53,7 @@
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="https://github.com/Luiz-GL-Campos">
         <img src="https://avatars.githubusercontent.com/u/42492795?v=4" width="100px;" alt="Foto Luiz"/><br>
         <sub>
           <b>Luiz Gustavo Lopes Campos</b>
