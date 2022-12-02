@@ -4,8 +4,9 @@
 ----------------------------------------------------
 ### _**Projeto**_
 
-- [Visão do Produto e Projeto](pages/Visoes.md)
-
+- [Visão do Produto](pages/Visoes.md)
+- [Visão de Projeto](pages/VisaoProj.md)
+- [Lições](pages/Licoes.md)
 ----------------------------------------------------
 ### _**Entregas**_
 
