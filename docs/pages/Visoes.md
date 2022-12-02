@@ -1,6 +1,5 @@
 ## _**DSPS Skateshop**_
 <h1 align="center"><b>VISÃO DO PRODUTO E PROJETO</b></h1>
-Versão 1.0
 
 <br>
 
