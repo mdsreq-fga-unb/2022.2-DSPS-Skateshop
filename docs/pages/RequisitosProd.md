@@ -49,7 +49,7 @@ RNF03 | Requisitos de Portabilidade |O site deve ser responsivo tanto nos celula
 RNF04 | Requisitos de Desempenho | O cliente deve ser avisado imediatamente após o pagamento de sua compra cair na conta da loja.
 RNF05 | Requisitos de Suportabilidade | Após 1 hora de treinamento, o dono da loja deve ser capaz de alterar dados do site (como dados sobre dos produtos) sem a ajuda de desenvolvedores de software.
 RNF06 | Requisitos de Interface | O processo de compra precisa ser integrado com o widget "Checkout Iframe" da plataforma GetNet.
-RNF07 | Requisitos de Suportabilidade | A loja online deve atender o Brasil, com foco no Distrito Federal.
+RNF07 | Requisitos de Suportabilidade | A loja online deve atender o Brasil, com mais opções de frete para o Distrito Federal.
 RNF08 | Requisitos de Suportabilidade | A loja online não deve realizar fretes para fora do Brasil.
 RNF09 | Requisitos de Implementação | Um produto pode pertencer a várias categorias e a várias subcategorias. Uma categoria de produto pode ter várias subcategorias. Uma subcategoria só pode pertencer a uma categoria. Uma subcategoria não pode ter uma subsubcategoria.
 
