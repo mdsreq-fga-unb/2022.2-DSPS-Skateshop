@@ -67,5 +67,54 @@ Termos retirada do DBA do projeto:
 - nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em queries SQL, para que utilizemos o banco de dados de forma adequada.
 <br>
 
+## PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
+
+Após ler e estudar sobre as abordagens de Sommerville e Gupta a respeito de como escolher uma abordagem para o desenvolvimento do produto, a equipe chegou a conclusão que precisaríamos dos seguintes artefatos:
+
+- **Iterações:** Necessária para termos um constante feedback do professor e cliente sobre o produto que estamos desenvolvendo.
+- **Review ao final e planning ao início de cada iteração:** Necessária para acompanharmos nossos colegas, e compensarmos prontamente qualquer desfalque que viermos a ter.
+- **Code review:** Necessário para que o produto de software seja bem feito e conciso.
+- **MVP:** Necessário para guiar o desenvolvimento, e termos noção de quais requisitos agregam valor ao cliente.
+- **Orçamento mínimo:** Necessário para que o cliente confie em nós inicialmente, e ele não se arrisque, assim como nós, desenvolvedores.
+
+Alinhado com essas questões, e termos um prazo fixo, requisitos poucos conhecidos, a equipe decidiu adotar o processo de desenvolvimento SCRUM/XP, que nos permite trabalhar com iterações, mudar os requisitos de acordo com o prazo e o orçamento, e temos artefatos como as sprints, review, retrospectiva, e planning do SCRUM.
+Além de utilizarmos o SAFe como estrutura de requisitos de software, utilizando temas estratégicos, épicos, features e histórias de usuário, MVP (Mínimo Produto Viável) e a URPS+ como estrutura para requisitos não funcionais.
+
+<br>
+
+### 3.1 Elaboração de Requisitos
+
+| Atividade | Método | Ferramenta | Entrega |
+:--------|---------|-------------|----------|
+| Elicitação de requisitos | Brainstorming | Notion | Backlog do produto |
+| Análise dos requisitos | Diferenciação dos RF e RNF | Google meets | Lista de RF e RNF |
+| Documentação de requisitos | Estruturar requisitos em temas estratégicos, épicos, features e histórias de usuário
+ | Miro | Backlog do produto, MVP 1 e 2, RFN |
+| Verificação e validação dos requisitos | Validar se os requisitos ainda agregam valor ao sistema, e se estão sendo bem implementados nas suas devidas sprints, com seus critérios de aceitação | Testes de software, google meets para reuniões | Alteração ou não do backlog do produto, MVP’s e RFN |
+| Gerenciamento dos requisitos | Durante o desenvolvimento, requisitos questionados, serão abordados juntamente ao cliente, para que os mesmos sejam refinados | Google meets, trello | Lista de requisitos a serem discutidos |
+
+RF (Requisitos Funcionais) ; RFN (Requisitos Não Funcionais)
+
+<br>
+
+### 3.2 Análise e Design
+
+| Atividade | Método | Ferramenta | Entrega |
+:--------|---------|-------------|----------|
+| Elaboração do design da interface | Reunião Remota | Figma | Protótipo de Alta Fidelidade |
+| Modelagem de Banco de Dados | Reunião Remota | DBeaver | Design de Banco de Dados |
+
+<br>
+
+### 3.3 Construção do Produto
+
+| Atividade | Método | Ferramenta | Entrega |
+:--------|---------|-------------|----------|
+| Construção da interface | Pair Programing | React, typescript, styled-components, bootstrap, firebase | Front-end do Produto |
+| Construção da Banco de Dados | Pair Programing | PostgreSQL | Banco de Dados do Produto |
+<br>
+
+
+
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 - [Materiais Disponibilizados no Moodle](https://aprender3.unb.br/login/index.php)

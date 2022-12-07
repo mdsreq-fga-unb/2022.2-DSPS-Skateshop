@@ -7,12 +7,17 @@
 ### _**Projeto**_
 
 - Visões
-   - [Visão do Produto](pages/Visoes.md)
+   - [Visão do Produto](pages/VisaoProd.md)
    - [Visão de Projeto](pages/VisaoProj.md)
+----------------------------------------------------
+
+- Requisitos
+   - [Requisitos do Produto](pages/RequisitosProd.md)
 ----------------------------------------------------
 
 - Lições
    - [Unidade 1](pages/Licoes.md)
+   - [Unidade 2](pages/Licoes2.md)
 ----------------------------------------------------
 ### _**Entregas**_
 
