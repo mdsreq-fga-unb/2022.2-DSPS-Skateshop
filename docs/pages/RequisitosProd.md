@@ -43,8 +43,8 @@ Os Requisitos não-funcionais são os requisitos relacionados ao uso da aplicaç
 
 Número | Classificação | Requisitos Não Funcionais
 :---------: |  :-------: |  :-------:
-RNF01 | Requisitos de Legislação | Atender lei geral de proteção de dados (LGPD).
-RNF02 | Requisitos de Legislação | Atender o Código de Defesa do Consumidor (CDC, Lei 8.078).
+RNF01 | Requisitos de Legislação | Atender lei geral de proteção de dados (LGPD, Lei nº 13.709).
+RNF02 | Requisitos de Legislação | Atender o Código de Defesa do Consumidor (CDC, Lei nº 8.078).
 RNF03 | Requisitos de Portabilidade |O site deve ser responsivo tanto nos celulares (mobile) quanto nos computadores (desktop).
 RNF04 | Requisitos de Desempenho | O cliente deve ser avisado imediatamente após o pagamento de sua compra cair na conta da loja.
 RNF05 | Requisitos de Suportabilidade | Após 1 hora de treinamento, o dono da loja deve ser capaz de alterar dados do site (como dados sobre dos produtos) sem a ajuda de desenvolvedores de software.
