@@ -26,7 +26,8 @@ A seguir, temos exemplos da arquiteruta SAFe que utilizamos na elicitação de r
 | Épico | Feature | User Story (US) |
 :--------|---------|-------------|
 | E01 - Produtos | FEA01 - Gerenciamento de Produtos | US01 - Eu como dono da loja, desejo poder cadastrar produtos no sistema. <br /> US02 - Eu como cliente da loja, preciso que, em caso de shapes com as mesmas especificações técnicas, eu possa escolher o desenho do shape. <br /> US03 - Eu como cliente da loja, preciso ter a opção de ver todos os produtos que a loja tem em estoque. <br /> US04 - Como dono da loja, desejo poder alterar os dados dos produtos disponíveis na loja. <br /> US05 - Como dono da loja, desejo poder deletar algum produto já cadastrado no sistema. | 
-| E01 - Produtos | FEA02 - Frete, Retirada, Entrega | US06 - Eu como cliente da loja, preciso ter a opção de retirar na loja física os produtos que comprados na loja virtual. |
+| E01 - Produtos | FEA02 - Frete, Retirada, Entrega | US06 - Eu como cliente da loja, preciso ter a opção de retirar na loja física os produtos que comprados na loja virtual. <br /> US07 - Eu como cliente da loja, preciso ter a opção de retirar na loja física os produtos que comprados na loja virtual. <br /> US08 - Eu como cliente da loja, desejo opções de frete que variam de acordo com meu CEP. <br /> US09 - Eu como cliente da loja, preciso ter a opção de comprar vários produtos de uma vez utilizando um carrinho.
+ <br /> US10 - Eu como cliente da loja, desejo que o endereço esteja linkado ao google maps para ser mais fácil de achar a loja. |
 | E02 - Gerência de Dados | FEA03 - Dados da Página | US10 - Eu como dono da loja, preciso poder editar o horário de funcionamento da minha loja. |
 | E02 - Gerência de Dados | FEA04 - Usuários | US17 - Eu como Cliente da loja, preciso ter a opção de editar meus dados. |
 
