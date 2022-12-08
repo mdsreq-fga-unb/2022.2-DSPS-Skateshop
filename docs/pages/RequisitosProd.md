@@ -71,15 +71,15 @@ Traduzido livremente como mínimo produto viável, é um produto, uma app, ou um
 | Features                           | Prazo em Sprints        |
 | ---------------------------------- | ----------------------- |
 | [FEAT01] Gerenciamento de Produtos | 05/12/2022 - 30/12/2022 |
-| [FEAT04] Usuários                 | 05/12/2022 - 30/12/2022 |
+| [FEAT04] Usuários                  | 05/12/2022 - 30/12/2022 |
 
 <br>
 
 ### MVP2
 
-| Features                          | Prazo                   |
+| Features                          | Prazo em Sprints        |
 | --------------------------------- | ----------------------- |
 | [FEAT02] Frete, Retirada, Entrega | 02/01/2023 - 27/01/2023 |
-| [FEAT03] Dados da Página         | 02/01/2023 - 27/01/2023 |
+| [FEAT03] Dados da Página          | 02/01/2023 - 27/01/2023 |
 
 <br>
