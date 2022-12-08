@@ -1,6 +1,6 @@
 ## _**DSPS Skateshop**_
 
-<h1 align="center"><b>REQUISISTOS DO PRODUTO</b></h1>
+<h1 align="center"><b>REQUISITOS DO PRODUTO</b></h1>
 
 <br>
 
