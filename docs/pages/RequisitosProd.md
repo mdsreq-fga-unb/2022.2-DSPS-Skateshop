@@ -23,10 +23,9 @@ Backlog do produto é uma lista que contém os requisitos necessários para a co
 
 <br>
 
-### Users
+### Papel de usuário
 
-Os users ou usuários, são personagens fictícios representando, nesse caso, o Dono da loja e Clientes da loja, ambos com características ideais.
-A seguir, temos exemplos da arquiteruta SAFe que utilizamos na elicitação de requisistos do nosso produto:
+Há o papel "dono da loja" e o papel "cliente da loja". O dono da loja é responsável pela manutenção do estoque loja online. O cliente da loja é quem compra produtos da loja online.
 
 | Épico                   | Feature                           | User Story (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | :----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -69,7 +68,7 @@ Traduzido livremente como mínimo produto viável, é um produto, uma app, ou um
 
 ### MVP1
 
-| Feature                            | Prazo em Sprints        |
+| Features                           | Prazo em Sprints        |
 | ---------------------------------- | ----------------------- |
 | [FEAT01] Gerenciamento de Produtos | 05/12/2022 - 30/12/2022 |
 | [FEAT04] Usuários                 | 05/12/2022 - 30/12/2022 |
@@ -78,7 +77,7 @@ Traduzido livremente como mínimo produto viável, é um produto, uma app, ou um
 
 ### MVP2
 
-| Feature                           | Prazo                   |
+| Features                          | Prazo                   |
 | --------------------------------- | ----------------------- |
 | [FEAT02] Frete, Retirada, Entrega | 02/01/2023 - 27/01/2023 |
 | [FEAT03] Dados da Página         | 02/01/2023 - 27/01/2023 |
