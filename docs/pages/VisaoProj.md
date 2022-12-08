@@ -60,13 +60,10 @@ Ao início de cada sprint, será realizada uma reunião de planejamento (plannin
 A necessidade do cliente mudar:
 
 - Caso este cenário ocorra, precisaremos replanejar o produto, para que atenda às novas necessidades do cliente.
-  `<br>`
   A equipe não conseguir entregar o que está se propondo:
 - Caso a equipe não consiga entregar o que está sendo combinado, teremos de replanejar nossa abordagem, talvez fazer mais acompanhamentos, ou diminuir a carga do backlog das sprints.
-  `<br>`
   Termos retirada do DBA do projeto:
 - nisso, precisaremos utilizar uma ferramenta de ORM, para que transforme código python, em queries SQL, para que utilizemos o banco de dados de forma adequada.
-  `<br>`
 
 ## PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
 
@@ -112,7 +109,6 @@ RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 | :----------------------------- | --------------- | --------------------------------------------------------- | ------------------------- |
 | Construção da interface      | Pair Programing | React, typescript, styled-components, bootstrap, firebase | Front-end do Produto      |
 | Construção da Banco de Dados | Pair Programing | PostgreSQL, FastAPI                                       | Banco de Dados do Produto |
-| `<br>`                       |                 |                                                           |                           |
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
