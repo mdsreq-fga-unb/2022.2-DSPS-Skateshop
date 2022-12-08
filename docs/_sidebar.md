@@ -24,6 +24,8 @@
 - Unidade 1 
    - [Material do Seminário de Processos e Ciclos de Vida](pages/SlidesSeminario.md)
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega.md)
+- Unidade 2
+   - [Vídeo de Apresentação das Entregas](pages/VideoEntrega2.md)
 ----------------------------------------------------
 
 
