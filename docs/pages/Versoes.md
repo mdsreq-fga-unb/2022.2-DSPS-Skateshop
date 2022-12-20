@@ -8,5 +8,7 @@ Versão 1.2
 | 30/11/2022 | 1.1 | Atualizando seções no GitPages | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
 | 30/11/2022 | 1.2 | Atualizando seções no GitPages | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
 | 7/12/2022 | 1.3 | Adicionando Requisitos de Produto e Gerenciamento de Software | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
+| 13/12/2022 | 1.4 | Corrigindo erros apontados pelo professor | [Daniel Rocha Oliveira](https://github.com/DanRocha18) |
+
 
 <br>

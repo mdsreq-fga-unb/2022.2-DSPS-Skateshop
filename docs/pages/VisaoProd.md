@@ -44,8 +44,7 @@
 
 ### 1.2. Objetivos do Produto
 
-Mostrar virtualmente os itens que a loja física DSPS Skateshop possui, e realizar vendas online, por meio de pagamento com cartão de crédito, e demais formas de transação online como boleto ou pix, tendo também a opção de retirada ou entrega desses produtos.
-
+Realizar vendas online, expandindo o número de clientes do PO e mostrando virtualmente os itens que a loja física DSPS Skateshop possui por meio de pagamento com cartão de crédito, e demais formas de transação online como boleto ou pix, tendo também a opção de retirada ou entrega desses produtos.
 <br>
 
 ### 1.3. Tecnologias a Serem Utilizadas
