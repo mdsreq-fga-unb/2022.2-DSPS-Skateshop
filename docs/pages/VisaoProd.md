@@ -29,7 +29,6 @@
 
 ### 1.1 Declaração de Posição do Produto
 
-É uma loja online de produtos para skate onde também é possível achar tênis, roupas e acessórios. Os vídeos dos atletas patrocinados pela loja podem ser visualizados no site. Além disso, há uma seção para a comunidade do skate conferir peças velhas disponíveis para doação.
 
 |                  |                                                                                                                                                           |
 | :--------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +37,7 @@
 | O DSPS_Skateshop | É uma solução cliente-servidor                                                                                                                         |
 | Que              | Vende tênis, roupas, acessórios e outros produtos relacionados a skate.                                                                                 |
 | Ao contrário de | De outras lojas virtuais de Brasília, que somente vendem produtos e acessórios relacionados a skate.                                                    |
-| Nosso produto    | É um ecommerce, que mostra vídeos de atletas brasilienses patrocinados, disponibiliza peças de skate velhas para doação e tem uma interface simples. |
+| Nosso produto    | É um ecommerce, que mostra vídeos de atletas brasilienses patrocinados e tem uma interface simples. |
 
 <br>
 
