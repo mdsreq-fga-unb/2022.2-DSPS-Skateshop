@@ -18,7 +18,7 @@
 - Lições
    - [Unidade 1](pages/Licoes.md)
    - [Unidade 2](pages/Licoes2.md)
-   - [Unidade 3](pages/Licoes3.md)
+   - [Unidade 3](pages/LIcoes3.md)
 ----------------------------------------------------
 ### _**Entregas**_
 
