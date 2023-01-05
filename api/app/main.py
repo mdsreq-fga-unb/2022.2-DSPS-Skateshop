@@ -4,6 +4,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/healthy", include_in_schema=False)
-def healthy_route():
+@app.get("/")
+def root():
     return {"message": "OK"}
