@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Sobre Nós{% endblock title %}
+
+{% block content %}
+
+<div class="container my-3">
+    <h1 class="font-weight-bold">Sobre nós</h1>
+    <br>
+    <p>
+        Descrição da empresa.
+    </p>
+
+    <br>
+    <h2 style="font-size: 25px" class="font-weight-bold">Nossa localização</h2>
+    <br>
+
+    <iframe
+      width="100%"
+      height="400px"
+      style="border-radius:10px"
+      loading="lazy"
+      allowfullscreen
+      src="https://www.google.com/maps/embed/v1/place?zoom=18&center=-16.053484%2C-48.028432&key=AIzaSyAzEq4csTFfJE3BwFk1E8HZ06PLVeJE1QY
+           &q=Novo+gama+pedregal,Brasil">
+    </iframe>
+    <br>
+</div>
+
+{% endblock content %}

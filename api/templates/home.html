@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<br>
+
+<div class="container my-3">
+    <br>
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='shapes' %}">Shapes a partir de R$299,99!!</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='shapes' %}">
+            <img src="{% static 'home/shapes.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+
+    <br>
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='trucks' %}">Trucks a partir de R$129,99!!</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='trucks' %}">
+            <img src="{% static 'home/trucks.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+
+</div>
+
+{% endblock content %}
