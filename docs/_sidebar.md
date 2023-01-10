@@ -26,6 +26,7 @@
    - [Material do Seminário de Processos e Ciclos de Vida](pages/SlidesSeminario.md)
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega.md)
 - Unidade 2
+   - [Material MVP](pages/QuadroRequisitos.md)
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega2.md)
 - Unidade 3
    - [Material do PBB, BDD e USM](pages/PBB_USM.md)
