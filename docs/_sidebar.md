@@ -30,6 +30,7 @@
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega2.md)
 - Unidade 3
    - [Material do PBB, BDD e USM](pages/PBB_USM.md)
+   - [Relatório Kanban](pages/PrintsKanban.md)
 ----------------------------------------------------
 
 
