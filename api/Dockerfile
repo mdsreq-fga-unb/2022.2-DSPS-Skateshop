@@ -1,8 +1,18 @@
-FROM python:3.11.0-buster
+FROM python:3.9.5
 
-WORKDIR /code/
-COPY . .
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONPATH /code
+
+RUN mkdir /code
+
+RUN apt update -y
+
+WORKDIR /code
+
+COPY requirements.txt /code/
 
 RUN pip install -r requirements.txt
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers"]
+COPY . /code/
+
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]

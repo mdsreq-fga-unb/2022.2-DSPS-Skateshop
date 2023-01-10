@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<br>
+
+<div class="container my-3">
+    <br>
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='shapes' %}">Shapes</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='shapes' %}">
+            <img src="{% static 'home/shapes.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+
+    <br>
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='lixas' %}">Lixas</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='lixas' %}">
+            <img src="{% static 'home/lixas.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+    <br>
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='trucks' %}">Trucks</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='trucks' %}">
+            <img src="{% static 'home/trucks.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+    <br>
+
+    
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='rodinhas' %}">Rodinhas</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='Rodinhas' %}">
+            <img src="{% static 'home/rodinhas.jpg' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+    <br>
+
+
+    <div class="card mb-3 text-center">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='rolamentos' %}">Rolamentos</a>
+            </h5>
+        </div>
+
+        <a href="{% url 'products:list_by_category' slug='rolamentos' %}">
+            <img src="{% static 'home/rolamentos.png' %}" class="card-img-top" alt="">
+        </a>
+    </div>
+    <br>
+
+    <div class="row" >
+        <div class="col-md-4">
+            <ul>
+                <li>
+                    Whatsapp: {{ company.phone }}
+                </li>
+                <li>
+                    Instagram: <a href="https://www.instagram.com/{{ company.insta }}">@{{ company.insta }}</a>
+                </li>
+                <li>
+                    E-mail: {{ company.email }}
+                </li>
+                <li>
+                    Youtube: <a href="https://www.youtube.com/@{{ company.youtube }}">@{{ company.youtube }}</a>
+                </li>
+                <li>
+                    Horário: {{ company.business_hours }}
+                </li>
+                <li>
+                    Endereço: {{ company.address }}
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <iframe
+              width="100%"
+              height="400px"
+              style="border-radius:10px"
+              loading="lazy"
+              allowfullscreen
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.89677692942576!2d-48.039972739679115!3d-15.838274130192904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2fac12e92317%3A0x1074f4f625ff6de9!2sDSPS%20Skate%20shop!5e0!3m2!1sen!2sus!4v1673355537176!5m2!1sen!2sus" >
+            </iframe>
+        </div>
+        <br>
+    </div>
+
+
+</div>
+
+{% endblock content %}

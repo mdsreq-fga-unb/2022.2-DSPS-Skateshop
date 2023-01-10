@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  site:
+    build: .
+    container_name: site
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000

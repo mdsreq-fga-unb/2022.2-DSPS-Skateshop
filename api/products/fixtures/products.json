@@ -1,0 +1,172 @@
+[
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "created": "2020-11-29T19:48:50.913Z",
+            "modified": "2020-11-29T19:48:50.913Z",
+            "name": "Brincos",
+            "slug": "brincos"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 3,
+        "fields": {
+            "created": "2020-11-29T19:48:53.913Z",
+            "modified": "2020-11-29T19:48:53.913Z",
+            "name": "Colares",
+            "slug": "colares"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "created": "2020-11-29T22:08:23.477Z",
+            "modified": "2020-11-29T22:08:23.477Z",
+            "category": 3,
+            "name": "Choker dourado com cristais coloridos",
+            "slug": "choker-dourado-com-cristais-coloridos",
+            "image": "products/Choker_dourado_com_cristais_coloridos.jpg",
+            "description": "Colar estilo choker folheado em ouro com cristais azuis, vermelhos, rosas e verdes",
+            "price": "69.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "created": "2020-11-29T22:08:45.715Z",
+            "modified": "2020-11-29T22:08:45.715Z",
+            "category": 3,
+            "name": "Colar dourado com corações",
+            "slug": "colar-dourado-com-coracoes",
+            "image": "products/Colar_dourado_com_corações.jpg",
+            "description": "Colar longo folheado em ouro com detalhes de coração",
+            "price": "79.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "created": "2020-11-29T22:09:04.836Z",
+            "modified": "2020-11-29T22:09:04.836Z",
+            "category": 3,
+            "name": "Colar prateado com cristais coloridos",
+            "slug": "colar-prateado-com-cristais-coloridos",
+            "image": "products/Colar_prateado_com_cristais_coloridos.jpg",
+            "description": "Colar longo folheado em prata com cristais azuis, rosas, verdes e laranjas",
+            "price": "79.90",
+            "is_available": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "created": "2020-11-29T22:09:21.705Z",
+            "modified": "2020-11-29T22:09:21.705Z",
+            "category": 3,
+            "name": "Colar em ródio negro com cristais verdes",
+            "slug": "colar-em-rodio-negro-com-cristais-verdes",
+            "image": "products/Colar_em_ródio_negro_com_cristais_verdes.jpg",
+            "description": "Colar longo folheado em ródio negro com cristais verdes",
+            "price": "84.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "created": "2020-11-29T22:09:36.915Z",
+            "modified": "2020-11-29T22:09:36.915Z",
+            "category": 3,
+            "name": "Colar dourado ponto de luz",
+            "slug": "colar-dourado-ponto-de-luz",
+            "image": "products/Colar_dourado_ponto_de_luz.jpg",
+            "description": "Colar folheado em ouro com zircônia",
+            "price": "46.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "created": "2020-11-29T22:12:40.565Z",
+            "modified": "2020-11-29T22:12:40.565Z",
+            "category": 2,
+            "name": "Brinco de flor rosa",
+            "slug": "brinco-de-flor-rosa",
+            "image": "products/Brinco_de_flor_rosa.jpg",
+            "description": "Brinco folheado em ródio negro com cristais rosa em formato de flor",
+            "price": "49.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "created": "2020-11-29T22:12:56.697Z",
+            "modified": "2020-11-29T22:12:56.697Z",
+            "category": 2,
+            "name": "Brinco prateado de flor rosa",
+            "slug": "brinco-prateado-de-flor-rosa",
+            "image": "products/Brinco_prateado_de_flor_rosa.jpg",
+            "description": "Brinco folheado em prata com cristais rosa escuro e rosa claro no formato de flor",
+            "price": "49.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "created": "2020-11-29T22:13:11.645Z",
+            "modified": "2020-11-29T22:13:11.645Z",
+            "category": 2,
+            "name": "Brinco dourado com zircônia de coração",
+            "slug": "brinco-dourado-com-zirconia-de-coracao",
+            "image": "products/Brinco_dourado_com_zircônia_de_coração.jpg",
+            "description": "Brinco de argola pequeno folheado em ouro com zircônia em formato de coração",
+            "price": "32.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "created": "2020-11-29T22:13:32.656Z",
+            "modified": "2020-11-29T22:13:32.656Z",
+            "category": 2,
+            "name": "Brinco dourado com cristais coloridos",
+            "slug": "brinco-dourado-com-cristais-coloridos",
+            "image": "products/Brinco_dourado_com_cristais_coloridos.jpg",
+            "description": "Brinco de argola pequeno folheado em ouro com cristais azuis, amarelos e rosas",
+            "price": "48.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "created": "2020-11-29T22:13:51.267Z",
+            "modified": "2020-11-29T22:13:51.267Z",
+            "category": 2,
+            "name": "Brinco dourado de flor com cristal",
+            "slug": "brinco-dourado-de-flor-com-cristal",
+            "image": "products/Brinco_dourado_de_flor_com_cristal.jpg",
+            "description": "Brinco de flor folheado em ouro com cristal em formato de gota",
+            "price": "90.90",
+            "is_available": true
+        }
+    }
+]

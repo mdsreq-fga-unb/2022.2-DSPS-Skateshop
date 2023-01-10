@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Contatos{% endblock title %}
+
+{% block content %}
+
+<div class="container my-3">
+    <h1 class="font-weight-bold">Contatos</h1>
+    <br>
+    <br>
+
+    <ul>
+        <li>
+            Whatsapp: {{ company.phone }}
+        </li>
+        <li>
+            Instagram: <a href="https://www.instagram.com/{{ company.insta }}">@{{ company.insta }}</a>
+        </li>
+        <li>
+            E-mail: {{ company.email }}
+        </li>
+        <li>
+            Youtube: <a href="https://www.youtube.com/@{{ company.youtube }}">@{{ company.youtube }}</a>
+        </li>
+    </ul>
+</div>
+
+{% endblock content %}
