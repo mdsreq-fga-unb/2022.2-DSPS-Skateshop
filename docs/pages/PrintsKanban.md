@@ -1,14 +1,14 @@
 <h1 align="center"> Kanban </h1>
-<h2 align="center"> Prints das telas do nosso Kanban feitos no trello </h2>
+<h2 align="center"> Prints das telas do nosso Quadro Kanban feitos no trello </h2>
 
-1. ### _**Sprints 1**_
-    <img src="./assets/imagens/Kanban/Print1.PNG" height="500"/>
+1. ### _**Sprint 1**_
+    <img src="./assets/imagens/Kanban/Print1.PNG"/>
 
-2. ### _**Sprint 2 e 3**_
-    <img src="./assets/imagens/Kanban/Print2.PNG" height="500"/>
+2. ### _**Sprints 2 e 3**_
+    <img src="./assets/imagens/Kanban/Print2.PNG"/>
 
-3. ### _**Sprint 4 e 5**_
-    <img src="./assets/imagens/Kanban/Print3.PNG" height="500"/>
+3. ### _**Sprints 4 e 5**_
+    <img src="./assets/imagens/Kanban/Print3.PNG"/>
 
 
 </br>
