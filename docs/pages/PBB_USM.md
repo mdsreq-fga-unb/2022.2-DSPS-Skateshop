@@ -39,7 +39,7 @@
 
 10. ### _**Detalhe de funcionalidade**_
 
-    <img src="./assets/imagens/PBB/feature5.png.png" width="750" height="500" />
+    <img src="./assets/imagens/PBB/feature5.png" width="750" height="500" />
 
 11. ### _**Detalhe de funcionalidade**_
 
