@@ -35,19 +35,14 @@
 
 ### 2.3 Matriz de Comunicação
 
-O telegram e o Discord serão as principais plataformas de comunicação utilizadas pela equipe.
+O telegram e o google meets serão as principais plataformas de comunicação utilizadas pela equipe.
 
 | Descrição                                                               | Envolvidos         | Periodicidade                        | Produtos Gerados                                                             |
 | :------------------------------------------------------------------------ | ------------------ | ------------------------------------ | ---------------------------------------------------------------------------- |
-| -Acompanhamento das Atividades em Andamento;                              |                    |                                      |                                                                              |
+| -Acompanhamento das Atividades em Andamento;                              |-Equipe do projeto  |-Semanal                             |-Nenhum                                                                         |
 | -Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores; | -Equipe do Projeto | -Quinzenal                           | -Possíveis requisitos/tasks pendentes a serem resolvidos na próxima sprint |
-| -Relatório do produto;                                                   |                    |                                      |                                                                              |
-| -Parecer do estado atual do produto;                                      |                    |                                      |                                                                              |
-| -Alinhamento de expectativas e requisitos para próxima sprint;           | -Equipe do projeto |                                      |                                                                              |
-| -Cliente                                                                  | -Quinzenal         | -Ata de reunião                     |                                                                              |
-| -Lista de requisitos candidatos a estar no backlog da próxima sprint     |                    |                                      |                                                                              |
-| -Comunicar situação do projeto                                          | -Equipe do projeto |                                      |                                                                              |
-| -Professor                                                                | -Semanal           | -Relatório de situação do projeto |                                                                              |
+| -Relatório do produto;                                                   | Lucas Sales                    | Quinzenal                                      | -Ata com funcionalidades disponíveis no produto                                                                              |
+| -Alinhamento de expectativas e requisitos para próxima sprint;           | -Equipe do projeto | -Quinzenal                                     | -Sprint Backlog                                                                              |
 
 <br>
 
@@ -104,7 +99,7 @@ RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 
 | Atividade                           | Método         | Ferramenta | Entrega                       |
 | :---------------------------------- | --------------- | ---------- | ----------------------------- |
-| Elaboração do design da interface | Reunião Remota | Figma      | Protótipo de Alta Fidelidade |
+| Elaboração do design da interface   | Reunião Remota | Figma      | Protótipo de Alta Fidelidade |
 | Modelagem de Banco de Dados         | Reunião Remota | DBeaver    | Design de Banco de Dados      |
 
 <br>
@@ -113,8 +108,8 @@ RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 
 | Atividade                      | Método         | Ferramenta                                                | Entrega                   |
 | :----------------------------- | --------------- | --------------------------------------------------------- | ------------------------- |
-| Construção da interface      | Pair Programing | React, typescript, styled-components, bootstrap, firebase | Front-end do Produto      |
-| Construção da Banco de Dados | Pair Programing | PostgreSQL, FastAPI                                       | Banco de Dados do Produto |
+| Construção da interface      | Pair Programing | HTML, CSS, bootstrap                                       | Front-end                 |
+| Construção da Banco de Dados | Pair Programing | SQLite, Django, Docker                                      | Backend e banco de dados|
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 

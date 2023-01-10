@@ -10,6 +10,8 @@
 | 07/11/2022 | 0.2     | Alteração de visão de produto                                                 | Lucas Sales                   |
 | 07/11/2022 | 0.3     | Continuar a alteração de visão de produto                                     | Leonardo Miranda              |
 | 06/12/2022 | 0.4     | Alterando sprints, processo de desenvolvimento de software e lições aprendidas | Lucas Sales<br />Luiz Gustavo |
+| 09/01/2023 | 0.5     | Atualizando tecnologias, MVP's, Sprints | Lucas Sales<br />|
+
 
 <br>
 
@@ -44,12 +46,14 @@
 ### 1.2. Objetivos do Produto
 
 Realizar vendas online, expandindo o número de clientes do PO e mostrando virtualmente os itens que a loja física DSPS Skateshop possui por meio de pagamento com cartão de crédito, e demais formas de transação online como boleto ou pix, tendo também a opção de retirada ou entrega desses produtos.
+
 <br>
 
 ### 1.3. Tecnologias a Serem Utilizadas
 
-React, TypeScript, styled-components, Python, FastAPI, PostgreSQL, Firebase, GitHub Pages e Trello.
-`<br>`
+Python, Django, SQLite, Docker, pytest.
+
+<br>
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
