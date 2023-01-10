@@ -18,7 +18,7 @@
 - Lições
    - [Unidade 1](pages/Licoes.md)
    - [Unidade 2](pages/Licoes2.md)
-   - [Unidade 3](pages/LIcoes3.md)
+   - [Unidade 3](pages/Licoes3.md)
 ----------------------------------------------------
 ### _**Entregas**_
 
@@ -27,6 +27,8 @@
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega.md)
 - Unidade 2
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega2.md)
+- Unidade 3
+   - [Material do PBB, BDD e USM](pages/PBB_USM.md)
 ----------------------------------------------------
 
 
