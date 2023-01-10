@@ -35,8 +35,4 @@
 
 9. ### _**Referências Bibliográficas**_
 
-<<<<<<< HEAD
-    <img src="./assets/imagens/RUP/slide9RUP.jpg" width="750" height="500" />
-=======
     <img src="./assets/imagens/slide9RUP.jpg" width="750" height="500" />
->>>>>>> 71da679 (fixing file src)
