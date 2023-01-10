@@ -1,10 +1,13 @@
-version: "3.7"
+version: "3.9"
 
 services:
   site:
-    build: .
+    build:
+      context: .
     container_name: site
     volumes:
       - .:/code
+      - ./static:/static
     ports:
       - 8000:8000
+      
