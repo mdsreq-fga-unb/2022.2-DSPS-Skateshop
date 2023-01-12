@@ -19,16 +19,12 @@
 | :----- | --------------------------------------------------- | ------------ | -------- |
 | 1      | Elicitação de requisitos, definição de MVP.     | 21/11/22     | 02/12/22 |
 | 2      | Criação gitpages e ambiente de desenvolvimento.    | 21/11/22     | 28/11/22 |
-| 3      | Planing.                                           | 21/11/22     | 07/12/22 |
-| 4      | Desenvolvimento e testes do MVP 1.                           | 08/12/22     | 07/01/23 |
-| 5      | Review com o cliente     | 09/01/23     | 09/01/23 |
-| 6      | Ajustes pendentes do MVP 1 após review com cliente | 09/12/23     | 10/12/23 |
-| 7      | Atualização gitpages.    | 10/01/23     | 24/01/23 |
-| 8      | Planing.                                           | 21/11/22     | 02/12/22 |
-| 9      | Desenvolvimento e testes do MVP 2                            | 10/01/23     | 06/02/23 |
-| 10      | Review com o cliente     | 06/02/23     | 06/02/23 |
-| 11     | Ajustes pendentes do MVP 2 após review com cliente | 06/02/23     | 09/02/23 |
-| 12      | Finalização dos testes de integração.                             | 06/02/23     | 09/02/23 |
+| 3 a 5      | Desenvolvimento das US e testes do MVP 1.                           | 08/12/22     | 07/01/23 |
+| 5   | Retrospectiva e Review com o cliente     | 09/01/23     | 09/01/23 |
+| 6      | Atualização gitpages (MVP1)    | 10/01/23     | 24/01/23 |
+| 5 a 8      | Desenvolvimento das US e testes do MVP 2                            | 10/01/23     | 06/02/23 |
+| 8    | Retrospectiva e Review com o cliente     | 06/02/23     | 06/02/23 |
+| 9      | Finalização dos testes de integração.                             | 06/02/23     | 09/02/23 |
 | Review | Tratamento de últimos erros, e ajustes mínimos    | 06/02/23     | 09/02/23 |
 
 <br>
