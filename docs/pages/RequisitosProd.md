@@ -68,7 +68,7 @@ Os Requisitos não-funcionais são os requisitos relacionados ao uso da aplicaç
 |  RNF04  |   Requisitos de Desempenho   |                                                                       O cliente deve ser avisado, em questão de minutos, após o pagamento de sua compra cair na conta da loja.                                                                       |
 |  RNF05  | Requisitos de Usabilidade |                                       Após 1 hora de treinamento, o dono da loja deve ser capaz de alterar dados do site (como dados sobre dos produtos) sem a ajuda de desenvolvedores de software.                                       |
 |  RNF06  |    Requisitos de Implementação    |                                                                       O processo de compra precisa ser integrado com o widget "Checkout Iframe" da plataforma GetNet.                                                                       |
-|  RNF07  | Requisitos de Suportabilidade |                                                                          A loja online deve atender o Brasil, com foco no Distrito Federal.                                                                          |
+|  RNF07  | Requisitos de Suportabilidade |                                                                          A loja online deve atender o Brasil.                                                                          |
 |  RNF08  | Requisitos de Implementação | Um produto pode pertencer a várias categorias. |
 
 <br>
