@@ -16,5 +16,5 @@ Nossa documentação está disponível dentro do nosso GitHub Pages, lá mostram
 <b>Sinta-se a vontade para conferir nossa documentação, <a href="https://mdsreq-fga-unb.github.io/2022.2-DSPS-Skateshop/#/">clique aqui</a>.</b>
 
 <b>
-O site pode ser encontrado nesse <a href="http://24.199.124.124">link</a>.</b>
+O site da DSPS SkateShop pode ser encontrado nesse <a href="http://24.199.124.124">link</a>.</b>
 </b>
