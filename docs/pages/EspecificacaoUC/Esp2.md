@@ -1,121 +1,247 @@
-## ESPECIFICAÇÃO DE CASO DE USO: Gerência de Usuário
+## ESPECIFICAÇÃO DE CASO DE USO: Gerenciar produtos
 
 ### 1 Breve Descrição
 
-Este caso de utilizado é utilizado pelo usuário, para encontrar um produto, ou uma série de produtos similares. Este Caso de Uso é utilizado tanto pelo cliente da loja como pelo dono da loja onde, dependendo do ator utilizando esse caso de uso, será possível, no caso do cliente, editar seus dados e deletar sua conta.
+Este caso de uso é utilizado pelo dono da loja, para gerenciar produtos disponíveis para compra na loja.
 
 <br>
 
 ### 2 Atores
 
-Cliente da loja.
+Dono da loja.
 
 <br>
 
 ### 3 Condições Prévias
 
-O cliente precisa estar cadastrado na loja.
+O dono da loja deve acessar a área restrita de admin.
 
 
 <br>
 
 ### 4 Fluxo Básico de Eventos
-#### 4.1 
+#### 4.1 Adicionar Produtos
+##### 4.1.1
 
-O cliente entra na loja através do login.
-    
-<br>
-
-#### 4.2
-
-O cliente entra na “página do cliente”.
+O dono da loja acessa a área de admin.
 
 <br>
 
-#### 4.3
+#### 4.1.2
 
-O sistema mostra as informações do usuário.
-
-<br>
-
-#### 4.4
-
-O sistema mostra um menu com opções de edição ou deleção para o cliente.(FA5.1, FA5.2)
+O dono da loja clica na opção adicionar em products.
 
 <br>
 
-#### 4.5
+#### 4.1.3
 
-O cliente retorna a homepage.
+O dono da loja seleciona a categoria do novo produto.
 
 <br>
+
+#### 4.1.4
+
+O dono da loja adiciona o nome do produto.
+
+<br>
+
+#### 4.1.5
+
+O dono da loja adiciona uma imagem ao produto.
+
+<br>
+
+#### 4.1.6
+
+O dono da loja adiciona uma descrição ao produto.
+
+<br>
+
+#### 4.1.7
+
+O dono da loja adiciona um preço ao produto.
+
+<br>
+
+#### 4.2 Editar Produto
+##### 4.2.1
+
+O dono da loja acessa a área de admin.
+
+<br>
+
+#### 4.2.2
+
+O dono da loja clica na opção products.
+
+<br>
+
+#### 4.2.3
+
+O dono da loja seleciona o produto que deseja alterar.
+
+<br>
+
+#### 4.2.4
+
+O dono da loja edita o campo que deseja alterar.
+
+<br>
+
+#### 4.3 Remover Produto
+##### 4.3.1
+
+O dono da loja acessa a área de admin.
+
+<br>
+
+#### 4.3.2
+
+O dono da loja clica em products.
+
+<br>
+
+#### 4.3.3
+
+O dono da loja seleciona os produtos.
+
+<br>
+
+#### 4.3.4
+
+O dono da loja seleciona remover no campo ação.
+
+<br>
+
+#### 4.3.5
+
+O dono da loja clica no botão ir.
+
+<br>
+
 
 ### 5 Fluxos Alternativos
-#### 5.1 Editar dados do Usuário
+#### 5.1 Adicionar Produtos
 ##### 5.1.1
 
- O cliente seleciona a opção de editar dados.
+O dono da loja acessa a área de admin.
 
 <br>
 
-##### 5.1.2
+#### 5.1.2
 
-O sistema retorna os dados cadastrais do cliente.
-
-<br>
-
-##### 5.1.3
-
-O cliente altera os dados desejados, mediante confirmação de senha.
+O dono da loja clica na opção adicionar em products.
 
 <br>
 
-##### 5.1.4
+#### 5.1.3
 
-O cliente retorna a homepage.
+O dono da loja seleciona a categoria do novo produto.
 
 <br>
 
-#### 5.2 Deletar conta do Usuário
+#### 5.1.4
+
+O dono da loja adiciona o nome do produto.
+
+<br>
+
+#### 5.1.5
+
+O dono da loja adiciona uma imagem ao produto.
+
+<br>
+
+#### 5.1.6
+
+O dono da loja adiciona uma descrição ao produto.
+
+<br>
+
+#### 5.1.7
+
+O dono da loja adiciona um preço ao produto.
+
+<br>
+
+#### 5.2 Editar Produto
 ##### 5.2.1
 
-O cliente seleciona a opção de deletar a conta.
+O dono da loja acessa a área de admin.
 
 <br>
 
-##### 5.2.2
+#### 5.2.2
 
-O sistema retorna a confirmação de deleção de conta.
-
-<br>
-
-##### 5.2.3
-
- O cliente confirma sua senha.
+O dono da loja clica na opção products.
 
 <br>
 
-##### 5.2.4
+#### 5.2.3
 
-O sistema deleta a conta do cliente.
+O dono da loja seleciona o produto que deseja alterar.
 
 <br>
 
-##### 5.2.5
+#### 5.2.4
 
-O usuário retorna a homepage sem estar cadastrado.
+O dono da loja edita o campo que deseja alterar.
+
+<br>
+
+#### 5.3 Remover Produto
+##### 5.3.1
+
+O dono da loja acessa a área de admin.
+
+<br>
+
+#### 5.3.2
+
+O dono da loja clica em products.
+
+<br>
+
+#### 5.3.3
+
+O dono da loja seleciona os produtos.
+
+<br>
+
+#### 5.3.4
+
+O dono da loja seleciona remover no campo ação.
+
+<br>
+
+#### 5.3.5
+
+O dono da loja clica no botão ir.
 
 <br>
 
 ### 6 Fluxo de Exceção
+#### 6.1 FE1 Produto adicionado não contem nome, categoria ou preço
 
-Não se aplica.
+O sistema não concluirá a ação e mostrará a mensagem “Por favor, corrija os erros abaixo” identificando os campos obrigatórios com “Este campo é obrigatório”. 
+
+<br>
+
+#### 6.2 FE2 – Nenhum produto selecionado
+
+O sistema mostrará “Os itens devem ser selecionados em ordem a fim de executar ações sobre eles. Nenhum item foi modificado, caso tentem remover sem selecionar os produtos.
+
+<br>
+
+#### 6.3 FE3 – Campo obrigatório removido
+
+O sistema não concluirá a ação e mostrará a mensagem “Por favor, corrija os erros abaixo” identificando os campos obrigatórios com “Este campo é obrigatório”.
 
 <br>
 
 ### 7 Pós-Condições 
 
-Não se aplica.
+As modificações realizadas nos produtos serão visíveis na loja.
 
 <br>
 
