@@ -35,12 +35,12 @@
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega3.md)
 - Unidade 4
    - [Casos de Uso](pages/Casos_Uso.md)
-   - [Especificação 1 de Uso](pages/EspecificacaoUC/Esp1.md)
-   - [Especificação 2 de Uso](pages/EspecificacaoUC/Esp2.md)
-   - [Especificação 3 de Uso](pages/EspecificacaoUC/Esp3.md)
-   - [Especificação 4 de Uso](pages/EspecificacaoUC/Esp4.md)
-   - [Especificação 5 de Uso](pages/EspecificacaoUC/Esp5.md)
-   - [Especificação 6 de Uso](pages/EspecificacaoUC/Esp6.md)
+   - [Especificação Gerência de Usuário](pages/EspecificacaoUC/Esp1.md)
+   - [Especificação Gerência de Produtos](pages/EspecificacaoUC/Esp2.md)
+   - [Especificação Gerência de Categorias](pages/EspecificacaoUC/Esp3.md)
+   - [Especificação Gerência de Promoções](pages/EspecificacaoUC/Esp4.md)
+   - [Especificação Mostrar Produtos](pages/EspecificacaoUC/Esp5.md)
+   - [Especificação Editar Dados da Loja](pages/EspecificacaoUC/Esp6.md)
 ----------------------------------------------------
 
 
