@@ -1,20 +1,20 @@
-## ESPECIFICAÇÃO DE CASO DE USO: Gerência de Usuário
+## ESPECIFICAÇÃO DE CASO DE USO: Gerência de Categorias
 
 ### 1 Breve Descrição
 
-Este caso de utilizado é utilizado pelo usuário, para encontrar um produto, ou uma série de produtos similares. Este Caso de Uso é utilizado tanto pelo cliente da loja como pelo dono da loja onde, dependendo do ator utilizando esse caso de uso, será possível, no caso do cliente, editar seus dados e deletar sua conta.
+Este caso de uso é utilizado pelo dono, para cadastrar uma categoria para os produtos da loja, podendo editar e remover os mesmos.
 
 <br>
 
 ### 2 Atores
 
-Cliente da loja.
+Dono da loja que deseja gerenciar as categorias dos seus produtos.
 
 <br>
 
 ### 3 Condições Prévias
 
-O cliente precisa estar cadastrado na loja.
+O dono da loja deve estar logado em sua conta de administrador e estar na tela de gerência do site.
 
 
 <br>
@@ -22,94 +22,135 @@ O cliente precisa estar cadastrado na loja.
 ### 4 Fluxo Básico de Eventos
 #### 4.1 
 
-O cliente entra na loja através do login.
+O dono clica no botão de gerência de categorias.
     
 <br>
 
 #### 4.2
 
-O cliente entra na “página do cliente”.
+O dono clica no botão de cadastro de nova categoria.
 
 <br>
 
 #### 4.3
 
-O sistema mostra as informações do usuário.
+O sistema mostra uma tela com um espaço para cadastro do nome de uma categoria.
 
 <br>
 
 #### 4.4
 
-O sistema mostra um menu com opções de edição ou deleção para o cliente.(FA5.1, FA5.2)
+O dono digita o nome de uma categoria inexistente.
 
 <br>
 
 #### 4.5
 
-O cliente retorna a homepage.
+O dono clica no botão de salvar.
+
+<br>
+
+#### 4.6
+
+O sistema salva a categoria nova.
 
 <br>
 
 ### 5 Fluxos Alternativos
-#### 5.1 Editar dados do Usuário
+#### 5.1 Edição de Categorias
 ##### 5.1.1
 
- O cliente seleciona a opção de editar dados.
+O dono clica no botão de gerência de categorias.
 
 <br>
 
 ##### 5.1.2
 
-O sistema retorna os dados cadastrais do cliente.
+O dono clica em uma categoria existente.
 
 <br>
 
 ##### 5.1.3
 
-O cliente altera os dados desejados, mediante confirmação de senha.
+O sistema mostra uma tela para edição da categoria.
 
 <br>
 
 ##### 5.1.4
 
-O cliente retorna a homepage.
+O dono apaga o nome da categoria e digita um novo nome para ela.
 
 <br>
 
-#### 5.2 Deletar conta do Usuário
+##### 5.1.5
+
+O dono clica no botão de salvar.
+
+<br>
+
+##### 5.1.6
+
+O sistema salva a atualização da categoria.
+
+<br>
+
+#### 5.2 Remoção de Categoria
 ##### 5.2.1
 
-O cliente seleciona a opção de deletar a conta.
+O dono clica no botão de gerência de categorias.
 
 <br>
 
 ##### 5.2.2
 
-O sistema retorna a confirmação de deleção de conta.
+O dono clica em uma categoria existente.
 
 <br>
 
 ##### 5.2.3
 
- O cliente confirma sua senha.
+O sistema mostra uma tela para edição da categoria.
 
 <br>
 
 ##### 5.2.4
 
-O sistema deleta a conta do cliente.
+O dono clica no botão de apagar a categoria.
 
 <br>
 
 ##### 5.2.5
 
-O usuário retorna a homepage sem estar cadastrado.
+O sistema mostra uma tela para confirmação da ação.
+
+<br>
+
+##### 5.2.6
+
+O dono clica no botão de confirmar.
+
+<br>
+
+##### 5.2.7
+
+O sistema desabilita a categoria.
 
 <br>
 
 ### 6 Fluxo de Exceção
 
-Não se aplica.
+#### 6.1 FE1 – Cadastrar ou editar categoria com o mesmo nome de uma já existente
+
+O sistema mostrará uma mensagem de erro na tela dizendo que:
+“Não é possível salvar a categoria pois já existe outra com o mesmo nome”.
+
+<br>
+
+#### 6.2 FE2 – Desabilitar uma categoria que tenha produtos vinculados a ela
+
+O sistema mostrará uma mensagem de erro na tela dizendo que:
+“Não é possível desativar a categoria pois existem produtos ativos que estão vinculados a ela”.
+
 
 <br>
 
