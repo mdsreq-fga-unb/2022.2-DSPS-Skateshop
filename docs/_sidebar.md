@@ -35,7 +35,12 @@
    - [Vídeo de Apresentação das Entregas](pages/VideoEntrega3.md)
 - Unidade 4
    - [Casos de Uso](pages/Casos_Uso.md)
-
+   - [Especificação 1 de Uso](pages/EspecificacaoUC/Esp1.md)
+   - [Especificação 2 de Uso](pages/EspecificacaoUC/Esp2.md)
+   - [Especificação 3 de Uso](pages/EspecificacaoUC/Esp3.md)
+   - [Especificação 4 de Uso](pages/EspecificacaoUC/Esp4.md)
+   - [Especificação 5 de Uso](pages/EspecificacaoUC/Esp5.md)
+   - [Especificação 6 de Uso](pages/EspecificacaoUC/Esp6.md)
 ----------------------------------------------------
 
 
