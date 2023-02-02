@@ -28,26 +28,35 @@
 
 ### 1 Breve Descrição
 
-    Este caso de utilizado é utilizado pelo usuário, para encontrar um produto, ou uma série de produtos similares. Este Caso de Uso é utilizado tanto pelo cliente da loja como pelo dono da loja onde, dependendo do ator utilizando esse caso de uso, será possível, no caso do cliente, editar seus dados e deletar sua conta.
-    
+Este caso de utilizado é utilizado pelo usuário, para encontrar um produto, ou uma série de produtos similares. Este Caso de Uso é utilizado tanto pelo cliente da loja como pelo dono da loja onde, dependendo do ator utilizando esse caso de uso, será possível, no caso do cliente, editar seus dados e deletar sua conta.
+
+
 <br>
 
 ### 2 Atores
 
-    Cliente da loja.
+Cliente da loja.
+
 <br>
 
 ### 3 Condições Prévias
-    O cliente precisa estar cadastrado na loja.
+
+O cliente precisa estar cadastrado na loja.
+
+
 <br>
 
 ### 4 Fluxo Básico de Eventos
+
 #### 4.1 
-    O cliente entra na loja através do login.
+
+O cliente entra na loja através do login.
     
 <br>
+
 #### 4.2
-    O cliente entra na “página do cliente”.
+O cliente entra na “página do cliente”.
+
 <br>
 
 #### 4.3
