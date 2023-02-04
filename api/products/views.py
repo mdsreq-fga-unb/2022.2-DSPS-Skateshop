@@ -10,7 +10,7 @@ class ProductDetailView(DetailView):
 
 class ProductListView(ListView):
     category = None
-    paginate_by = 6
+    paginate_by = 12
 
     def get_queryset(self):
         queryset = Product.available.all()

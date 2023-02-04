@@ -9,73 +9,64 @@
 <div class="container my-3">
     <br>
 
-    <div class="card mb-3 text-center">
-        <div class="card-body">
-            <h5 class="card-title">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='shapes' %}">Shapes</a>
-            </h5>
+    {% for cat, n in categories %}
+
+    <div >
+        <h5 class="card-title">
+            <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">{{ cat.name }}</a>
+        </h5>
+
+        <div class="card-deck mb-3" >
+        {% for product in product_list  %}
+            {% if product.category == cat %}
+            <div class="card" display="inline-block">
+                <a href="{{ product.get_absolute_url }}">
+                    {% if product.image %}
+                    <img class="card-img-top" src="{% static '' %}{{product.image}}" alt="">
+                    {% else %}
+                    <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
+                    {% endif %}
+                </a>
+
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                        <h6 class="card-title">{{ product.name }}</h6>
+                    </a>
+                    <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                        <p class="card-text font-weight-bold">R$ {{ product.price }}</p>
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+
+        <div class="card" display="inline-block">
+            <a href="{% url 'products:list_by_category' slug=cat.slug %}">
+                <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
+            </a>
+        
+            <div class="card-body d-flex flex-column justify-content-between">
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
+                    <h6 class="card-title">Mais {{ cat.name|lower }}</h6>
+                </a>
+                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
+                    <p class="card-text font-weight-bold"></p>
+                </a>
+            </div>
         </div>
 
-        <a href="{% url 'products:list_by_category' slug='shapes' %}">
-            <img src="{% static 'home/shapes.jpg' %}" class="card-img-top" alt="">
-        </a>
-    </div>
+        {% for i in "x"|rjust:n %}
+            {% if n != 0 %}
+            <div class="card border-0"></div>
+            {% endif %}
+        {% endfor %}
 
-    <br>
-
-    <div class="card mb-3 text-center">
-        <div class="card-body">
-            <h5 class="card-title">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='lixas' %}">Lixas</a>
-            </h5>
         </div>
 
-        <a href="{% url 'products:list_by_category' slug='lixas' %}">
-            <img src="{% static 'home/lixas.jpg' %}" class="card-img-top" alt="">
-        </a>
     </div>
     <br>
+    {% endfor %}
 
-    <div class="card mb-3 text-center">
-        <div class="card-body">
-            <h5 class="card-title">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='trucks' %}">Trucks</a>
-            </h5>
-        </div>
-
-        <a href="{% url 'products:list_by_category' slug='trucks' %}">
-            <img src="{% static 'home/trucks.jpg' %}" class="card-img-top" alt="">
-        </a>
-    </div>
-    <br>
-
-    
-    <div class="card mb-3 text-center">
-        <div class="card-body">
-            <h5 class="card-title">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='rodinhas' %}">Rodinhas</a>
-            </h5>
-        </div>
-
-        <a href="{% url 'products:list_by_category' slug='rodinhas' %}">
-            <img src="{% static 'home/rodinhas.jpg' %}" class="card-img-top" alt="">
-        </a>
-    </div>
-    <br>
-
-
-    <div class="card mb-3 text-center">
-        <div class="card-body">
-            <h5 class="card-title">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug='rolamentos' %}">Rolamentos</a>
-            </h5>
-        </div>
-
-        <a href="{% url 'products:list_by_category' slug='rolamentos' %}">
-            <img src="{% static 'home/rolamentos.png' %}" class="card-img-top" alt="">
-        </a>
-    </div>
-    <br>
 
     <div class="row" >
         <div class="col-md-4">

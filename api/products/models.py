@@ -12,6 +12,7 @@ class AvailableManager(models.Manager):
 class Category(TimeStampedModel):
     name = models.CharField(max_length=255, unique=True)
     slug = AutoSlugField(unique=True, always_update=False, populate_from='name')
+    is_in_homepage = models.BooleanField(default=False)
 
     class Meta:
         ordering = ('name',)
