@@ -9,17 +9,17 @@
 <div class="container my-3">
     <br>
 
-    {% for cat, n in categories %}
 
-    <div >
+    {% for cat, n in categories %}
+    <div>
         <h5 class="card-title">
             <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">{{ cat.name }}</a>
         </h5>
 
-        <div class="card-deck mb-3" >
+        <div class="d-flex flex-nowrap" style="overflow-x: scroll;">
         {% for product in product_list  %}
             {% if product.category == cat %}
-            <div class="card" display="inline-block">
+            <div class="card" style="min-width: 150px; max-width: 210px; margin-right: 16px; margin-bottom: 16px;" display="inline-block">
                 <a href="{{ product.get_absolute_url }}">
                     {% if product.image %}
                     <img class="card-img-top" src="{% static '' %}{{product.image}}" alt="">
@@ -28,40 +28,36 @@
                     {% endif %}
                 </a>
 
-                <div class="card-body d-flex flex-column justify-content-between">
-                    <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
-                        <h6 class="card-title">{{ product.name }}</h6>
-                    </a>
-                    <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
-                        <p class="card-text font-weight-bold">R$ {{ product.price }}</p>
-                    </a>
-                </div>
+                <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                    <h6 class="card-title" style="white-space:pre-wrap; word-break:break-word; margin: 8px;">{{ product.name }}</h6>
+                </a>
+                <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                    <p class="card-text font-weight-bold" style="white-space:pre-wrap; word-break:break-word; margin: 8px;">R${{ product.price }}</p>
+                </a>
             </div>
             {% endif %}
         {% endfor %}
 
-        <div class="card" display="inline-block">
+        <div class="card" style="min-width: 150px; max-width: 210px; margin-right: 16px; margin-bottom: 16px;" display="inline-block">
             <a href="{% url 'products:list_by_category' slug=cat.slug %}">
                 <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
             </a>
         
-            <div class="card-body d-flex flex-column justify-content-between">
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
-                    <h6 class="card-title">Mais {{ cat.name|lower }}</h6>
-                </a>
-                <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
-                    <p class="card-text font-weight-bold"></p>
-                </a>
-            </div>
+            <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
+                <h6 class="card-title" style="white-space:pre-wrap; word-break:break-word; margin: 8px;">Mais {{ cat.name|lower }}</h6>
+            </a>
+            <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">
+                <p class="card-text font-weight-bold"></p>
+            </a>
         </div>
 
-        {% for i in "x"|rjust:n %}
+        <!-- {% for i in "x"|rjust:n %}
             {% if n != 0 %}
             <div class="card border-0"></div>
             {% endif %}
         {% endfor %}
-
-        </div>
+ -->
+    </div>
 
     </div>
     <br>
