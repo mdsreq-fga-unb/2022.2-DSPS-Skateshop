@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 from autoslug import AutoSlugField
 from model_utils.models import TimeStampedModel  # Model with created and modified columns
-
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 class AvailableManager(models.Manager):
     def get_queryset(self):
@@ -13,6 +13,9 @@ class Category(TimeStampedModel):
     name = models.CharField(max_length=255, unique=True)
     slug = AutoSlugField(unique=True, always_update=False, populate_from='name')
     is_in_homepage = models.BooleanField(default=False)
+    homepage_priority = models.PositiveSmallIntegerField(
+        default=1, validators=[MinValueValidator(1), MaxValueValidator(10)]
+    )
 
     class Meta:
         ordering = ('name',)

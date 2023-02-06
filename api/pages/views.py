@@ -14,8 +14,8 @@ class HomePageView(TemplateView):
         context = super(HomePageView, self).get_context_data(**kwargs)
         # get information about the company such as the address, phone number, etc.
         context["company"] = Company.objects.all().first()
-        # filter the categories by is_in_homepage
-        context['categories'] = Category.objects.filter(is_in_homepage=True)
+        # get the categories that are in the homepage
+        context['categories'] = Category.objects.filter(is_in_homepage=True).order_by('-homepage_priority')
         # 5 products of each category
         product_list = []
         missing_product_quantity_per_category = []
