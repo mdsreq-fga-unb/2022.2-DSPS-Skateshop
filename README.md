@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=STATUS&message=IN%20PROGESS&color=GREEN&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-green?style=for-the-badge&logo=appveyor"/>
 </p>
 
 <h2> Descrição </h2>
