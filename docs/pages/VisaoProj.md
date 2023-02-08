@@ -4,28 +4,26 @@
 
 ### 2.1 Organização do Projeto
 
-| Papel                        | Atribuições                                                                                                                                         | Responsável              | Participantes                           |
-| :--------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------- |
-| Desenvolvedor Front-end      | Desenvolver o produto na parte visual, manipulando os dados, para mostrar ao cliente de forma legível, e enviar ao backend de forma bem estruturada. | Lucas Sales               | Lucas Sales e Daniel Rocha              |
-| DBA (Database Administrator) | Desenvolver banco de dados, tabelas, relações entre as mesmas, e demais necessidades de banco.                                                      | Leonardo Miranda          | Leonardo Miranda                        |
-| Desenvolvedor Back-end       | Desenvolver conversação com o banco de dados, manusear os dados, para serem inseridos no banco, e apresentados no front-end.                        | Luiz Gustavo              | Luiz Gustavo, Bruno Kishibe, Dion Vitor |
-| Cliente                      | Validar requisitos e fornecimento de dados para o Product Backlog                                                                                     | Claudio Martins Mendonça | Claudio Martins Mendonça               |
+| Papel                        | Atribuições                                                                                                                                          | Responsável              | Participantes                           |
+| :--------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------- |
+| Desenvolvedor Front-end      | Desenvolver o produto na parte visual, manipulando os dados, para mostrar ao cliente de forma legível, e enviar ao backend de forma bem estruturada. | Lucas Sales              | Lucas Sales e Daniel Rocha              |
+| DBA (Database Administrator) | Desenvolver banco de dados, tabelas, relações entre as mesmas, e demais necessidades de banco.                                                       | Leonardo Miranda         | Leonardo Miranda                        |
+| Desenvolvedor Back-end       | Desenvolver conversação com o banco de dados, manusear os dados, para serem inseridos no banco, e apresentados no front-end.                         | Luiz Gustavo             | Luiz Gustavo, Bruno Kishibe, Dion Vitor |
+| Cliente                      | Validar requisitos e fornecimento de dados para o Product Backlog                                                                                    | Claudio Martins Mendonça | Claudio Martins Mendonça                |
 
 <br>
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
-| Sprint | Entrega                                             | Data início | Data fim |
-| :----- | --------------------------------------------------- | ------------ | -------- |
-| 1      | Elicitação de requisitos, definição de MVP.     | 21/11/22     | 02/12/22 |
-| 2      | Criação gitpages e ambiente de desenvolvimento.    | 21/11/22     | 28/11/22 |
-| 3 a 5      | Desenvolvimento das US e testes do MVP 1.                           | 08/12/22     | 07/01/23 |
-| 5   | Retrospectiva e Review com o cliente     | 09/01/23     | 09/01/23 |
-| 6      | Atualização gitpages (MVP1)    | 10/01/23     | 24/01/23 |
-| 5 a 8      | Desenvolvimento das US e testes do MVP 2                            | 10/01/23     | 06/02/23 |
-| 8    | Retrospectiva e Review com o cliente     | 06/02/23     | 06/02/23 |
-| 9      | Finalização dos testes de integração.                             | 06/02/23     | 09/02/23 |
-| Review | Tratamento de últimos erros, e ajustes mínimos    | 06/02/23     | 09/02/23 |
+| Sprint | Entrega                                         | Data início | Data fim |
+| :----- | ----------------------------------------------- | ----------- | -------- |
+| 1      | Elicitação de requisitos, definição de MVP.     | 21/11/22    | 02/12/22 |
+| 2      | Criação gitpages e ambiente de desenvolvimento. | 03/12/22    | 08/12/22 |
+| 3      | Desenvolvimento das US 01,03,04,05              | 08/12/22    | 22/12/22 |
+| 4      | Desenvolvimento das US 16,10,09,11              | 23/12/22    | 06/01/23 |
+| 5      | Desenvolvimento das US 02,14,17                 | 06/12/22    | 16/01/23 |
+| 6      | Desenvolvimento das US 15,18,06                 | 17/01/23    | 30/01/23 |
+| 7      | Desenvolvimento das US 07,08,12,13              | 31/01/23    | 09/02/23 |
 
 <br>
 
@@ -33,12 +31,12 @@
 
 O telegram e o google meets serão as principais plataformas de comunicação utilizadas pela equipe.
 
-| Descrição                                                               | Envolvidos         | Periodicidade                        | Produtos Gerados                                                             |
-| :------------------------------------------------------------------------ | ------------------ | ------------------------------------ | ---------------------------------------------------------------------------- |
-| -Acompanhamento das Atividades em Andamento;                              |-Equipe do projeto  |-Semanal                             |-Nenhum                                                                         |
-| -Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores; | -Equipe do Projeto | -Quinzenal                           | -Possíveis requisitos/tasks pendentes a serem resolvidos na próxima sprint |
-| -Relatório do produto;                                                   | Lucas Sales                    | Quinzenal                                      | -Ata com funcionalidades disponíveis no produto                                                                              |
-| -Alinhamento de expectativas e requisitos para próxima sprint;           | -Equipe do projeto | -Quinzenal                                     | -Sprint Backlog                                                                              |
+| Descrição                                                               | Envolvidos         | Periodicidade | Produtos Gerados                                                           |
+| :---------------------------------------------------------------------- | ------------------ | ------------- | -------------------------------------------------------------------------- |
+| -Acompanhamento das Atividades em Andamento;                            | -Equipe do projeto | -Semanal      | -Nenhum                                                                    |
+| -Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores; | -Equipe do Projeto | -Quinzenal    | -Possíveis requisitos/tasks pendentes a serem resolvidos na próxima sprint |
+| -Relatório do produto;                                                  | Lucas Sales        | Quinzenal     | -Ata com funcionalidades disponíveis no produto                            |
+| -Alinhamento de expectativas e requisitos para próxima sprint;          | -Equipe do projeto | -Quinzenal    | -Sprint Backlog                                                            |
 
 <br>
 
@@ -79,13 +77,13 @@ Além de utilizarmos o SAFe como estrutura de requisitos de software, utilizando
 
 ### 3.1 Elaboração de Requisitos
 
-| Atividade                                  | Método                                                                                                                                                   | Ferramenta                                      | Entrega                                                   |
-| :----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------- |
-| Elicitação de requisitos                 | Brainstorming                                                                                                                                             | Notion                                          | Backlog do produto                                        |
-| Análise dos requisitos                    | Diferenciação dos RF e RNF                                                                                                                              | Google meets                                    | Lista de RF e RNF                                         |
-| Documentação de requisitos               | Estruturar requisitos em temas estratégicos, épicos, features e histórias de usuário                                                                  | Miro                                            | Backlog do produto, MVP 1 e 2, requisitos não funcionais |
-| Verificação e validação dos requisitos | Validar se os requisitos ainda agregam valor ao sistema, e se estão sendo bem implementados nas suas devidas sprints, com seus critérios de aceitação | Testes de software, google meets para reuniões | Alteração ou não do backlog do produto, MVP’s e RFN   |
-| Gerenciamento dos requisitos               | Durante o desenvolvimento, requisitos questionados, serão abordados juntamente ao cliente, para que os mesmos sejam refinados                            | Google meets, trello                            | Lista de requisitos a serem discutidos                    |
+| Atividade                              | Método                                                                                                                                                | Ferramenta                                     | Entrega                                                  |
+| :------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------- |
+| Elicitação de requisitos               | Brainstorming                                                                                                                                         | Notion                                         | Backlog do produto                                       |
+| Análise dos requisitos                 | Diferenciação dos RF e RNF                                                                                                                            | Google meets                                   | Lista de RF e RNF                                        |
+| Documentação de requisitos             | Estruturar requisitos em temas estratégicos, épicos, features e histórias de usuário                                                                  | Miro                                           | Backlog do produto, MVP 1 e 2, requisitos não funcionais |
+| Verificação e validação dos requisitos | Validar se os requisitos ainda agregam valor ao sistema, e se estão sendo bem implementados nas suas devidas sprints, com seus critérios de aceitação | Testes de software, google meets para reuniões | Alteração ou não do backlog do produto, MVP’s e RFN      |
+| Gerenciamento dos requisitos           | Durante o desenvolvimento, requisitos questionados, serão abordados juntamente ao cliente, para que os mesmos sejam refinados                         | Google meets, trello                           | Lista de requisitos a serem discutidos                   |
 
 RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 
@@ -93,19 +91,19 @@ RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 
 ### 3.2 Análise e Design
 
-| Atividade                           | Método         | Ferramenta | Entrega                       |
-| :---------------------------------- | --------------- | ---------- | ----------------------------- |
-| Elaboração do design da interface   | Reunião Remota | Figma      | Protótipo de Alta Fidelidade |
-| Modelagem de Banco de Dados         | Reunião Remota | DBeaver    | Design de Banco de Dados      |
+| Atividade                         | Método         | Ferramenta | Entrega                      |
+| :-------------------------------- | -------------- | ---------- | ---------------------------- |
+| Elaboração do design da interface | Reunião Remota | Figma      | Protótipo de Alta Fidelidade |
+| Modelagem de Banco de Dados       | Reunião Remota | DBeaver    | Design de Banco de Dados     |
 
 <br>
 
 ### 3.3 Construção do Produto
 
-| Atividade                      | Método         | Ferramenta                                                | Entrega                   |
-| :----------------------------- | --------------- | --------------------------------------------------------- | ------------------------- |
-| Construção da interface      | Pair Programing | HTML, CSS, bootstrap                                       | Front-end                 |
-| Construção da Banco de Dados | Pair Programing | SQLite, Django, Docker                                      | Backend e banco de dados|
+| Atividade                    | Método          | Ferramenta             | Entrega                  |
+| :--------------------------- | --------------- | ---------------------- | ------------------------ |
+| Construção da interface      | Pair Programing | HTML, CSS, bootstrap   | Front-end                |
+| Construção da Banco de Dados | Pair Programing | SQLite, Django, Docker | Backend e banco de dados |
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
