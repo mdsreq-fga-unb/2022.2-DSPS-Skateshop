@@ -21,7 +21,7 @@
 | 2      | Criação gitpages e ambiente de desenvolvimento. | 03/12/22    | 08/12/22 |
 | 3      | Desenvolvimento das US 01,03,04,05              | 08/12/22    | 22/12/22 |
 | 4      | Desenvolvimento das US 16,10,09,11              | 23/12/22    | 06/01/23 |
-| 5      | Desenvolvimento das US 02,14,17                 | 06/12/22    | 16/01/23 |
+| 5      | Desenvolvimento das US 02,14,17                 | 06/01/22    | 16/01/23 |
 | 6      | Desenvolvimento das US 15,18,06                 | 17/01/23    | 30/01/23 |
 | 7      | Desenvolvimento das US 07,08,12,13              | 31/01/23    | 09/02/23 |
 
