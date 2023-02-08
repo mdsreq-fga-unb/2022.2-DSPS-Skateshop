@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock title %}
+
+{% block content %}
+
+<div class="container my-3">
+    <div class="col-md-4 offset-md-4">
+        <div class="card auth-card">
+            <dic class="card-body">
+                <h5 class="card-title">Entrar em sua conta</h5>
+
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="next" value="{{home}}">
+
+                    <button type="submit" class="bnt bnt-primary bnt-block">Entrar</button>
+
+                </form>
+            </dic>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
