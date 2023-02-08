@@ -5,13 +5,12 @@
 <br>
 
 | Data       | Versão | Descrição                                                                      | Autor                         |
-| :--------- | ------- | -------------------------------------------------------------------------------- | ----------------------------- |
-| 01/11/2022 | 0.1     | Descrição de visão de produto                                                 | Lucas Sales                   |
-| 07/11/2022 | 0.2     | Alteração de visão de produto                                                 | Lucas Sales                   |
-| 07/11/2022 | 0.3     | Continuar a alteração de visão de produto                                     | Leonardo Miranda              |
-| 06/12/2022 | 0.4     | Alterando sprints, processo de desenvolvimento de software e lições aprendidas | Lucas Sales<br />Luiz Gustavo |
-| 09/01/2023 | 0.5     | Atualizando tecnologias, MVP's, Sprints | Lucas Sales<br />|
-
+| :--------- | ------ | ------------------------------------------------------------------------------ | ----------------------------- |
+| 01/11/2022 | 0.1    | Descrição de visão de produto                                                  | Lucas Sales                   |
+| 07/11/2022 | 0.2    | Alteração de visão de produto                                                  | Lucas Sales                   |
+| 07/11/2022 | 0.3    | Continuar a alteração de visão de produto                                      | Leonardo Miranda              |
+| 06/12/2022 | 0.4    | Alterando sprints, processo de desenvolvimento de software e lições aprendidas | Lucas Sales<br />Luiz Gustavo |
+| 09/01/2023 | 0.5    | Atualizando tecnologias, MVP's, Sprints                                        | Lucas Sales<br />             |
 
 <br>
 
@@ -31,15 +30,14 @@
 
 ### 1.1 Declaração de Posição do Produto
 
-
-|                  |                                                                                                                                                           |
-| :--------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Para             | Gerente da DSPS, skatistas, familiares de crianças, pessoas que gostam de roupas de skate.                                                               |
-| Quem             | Loja De Skatista Para Skatista.                                                                                                                           |
-| O DSPS_Skateshop | É uma solução cliente-servidor                                                                                                                         |
-| Que              | Vende tênis, roupas, acessórios e outros produtos relacionados a skate.                                                                                 |
-| Ao contrário de | De outras lojas virtuais de Brasília, que somente vendem produtos e acessórios relacionados a skate.                                                    |
-| Nosso produto    | É um ecommerce, que mostra vídeos de atletas brasilienses patrocinados e tem uma interface simples. |
+|                  |                                                                                                      |
+| :--------------- | ---------------------------------------------------------------------------------------------------- |
+| Para             | Gerente da DSPS, skatistas, familiares de crianças, pessoas que gostam de roupas de skate.           |
+| Quem             | Loja De Skatista Para Skatista.                                                                      |
+| O DSPS_Skateshop | É uma solução sem-servidor                                                                           |
+| Que              | Vende tênis, roupas, acessórios e outros produtos relacionados a skate.                              |
+| Ao contrário de  | De outras lojas virtuais de Brasília, que somente vendem produtos e acessórios relacionados a skate. |
+| Nosso produto    | É um ecommerce, que mostra vídeos de atletas brasilienses patrocinados e tem uma interface simples.  |
 
 <br>
 
