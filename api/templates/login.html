@@ -4,6 +4,12 @@
 
 {% block content %}
 
+<style>
+    .d-flex {
+        gap: 100px;
+    }
+</style>
+
 <div class="container my-3">
     <div class="col-md-4 offset-md-4">
         <div class="card auth-card">
@@ -12,10 +18,12 @@
 
                 <form method="post">
                     {% csrf_token %}
+                    {{ form.as_p }}
                     <input type="hidden" name="next" value="{{home}}">
-
-                    <button type="submit" class="bnt bnt-primary bnt-block">Entrar</button>
-
+                    <div class="d-flex">
+                        <button type="submit" class="bnt bnt-primary bnt-block">Entrar</button>
+                        <label><a href="{% url 'users:register' %}">Cadastre-se aqui</a></label>
+                    </div>
                 </form>
             </dic>
         </div>
