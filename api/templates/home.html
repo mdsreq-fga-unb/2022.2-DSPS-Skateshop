@@ -9,8 +9,48 @@
 <div class="container my-3">
     <br>
 
+    <div>
+        <h5 class="card-title">
+            <a class="text-decoration-none text-dark">Promoções</a>
+        </h5>
+    
+        <div class="d-flex flex-nowrap" style="overflow-x: scroll;">
+            {% for product in product_with_offer_list %}
+            <div class="card" style="min-width: 150px; max-width: 210px; margin-right: 16px; margin-bottom: 16px;"
+                display="inline-block">
+                <a href="{{ product.get_absolute_url }}">
+                    <div style="width: 100%; padding-top: 10px; background-color: rgba(0,0,0,0.9); position: absolute; top: 0%; left: 0%; transform: translate(-0%, -0%);">
+                        {% if product.is_discount_absolute %}
+                        <h6 style="color: white; text-align: center;">-R${{ product.absolute_discount }}</h6>
+                        {% else %}
+                        <h6 style="color: white; text-align: center;">-{{ product.relative_discount }}%</h6>
+                        {% endif %}
+                    </div>
 
-    {% for cat, n in categories %}
+                    {% if product.image %}
+                    <img class="card-img-top" src="{% static '' %}{{product.image}}" alt="">
+                    {% else %}
+                    <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
+                    {% endif %}
+                </a>
+    
+                <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                    <h6 class="card-title" style="white-space:pre-wrap; word-break:break-word; margin: 8px;">{{ product.name }}</h6>
+                </a>
+                <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                    <p class="card-text" style="font-size:80%; white-space:pre-wrap; word-break:break-word; margin: 8px;"><s>De: R${{ product.base_price }}</s></p>
+                    <p class="card-text font-weight-bold" style="white-space:pre-wrap; word-break:break-word; margin: 8px;">Por: R${{ product.price }}</p>
+                </a>
+            </div>
+            {% endfor %}
+
+        </div>
+    
+    </div>
+    <br>
+
+
+    {% for cat in categories %}
     <div>
         <h5 class="card-title">
             <a class="text-decoration-none text-dark" href="{% url 'products:list_by_category' slug=cat.slug %}">{{ cat.name }}</a>
@@ -50,12 +90,6 @@
                 <p class="card-text font-weight-bold"></p>
             </a>
         </div>
-
-        <!-- {% for i in "x"|rjust:n %}
-            {% if n != 0 %}
-            <div class="card border-0"></div>
-            {% endif %}
-        {% endfor %} -->
 
     </div>
 

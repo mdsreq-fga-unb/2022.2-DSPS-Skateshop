@@ -16,17 +16,29 @@ class HomePageView(TemplateView):
         # get information about the company such as the address, phone number, etc.
         context["company"] = Company.objects.all().first()
         # get the categories that are in the homepage
-        context['categories'] = Category.objects.filter(is_in_homepage=True).order_by('-homepage_priority')
+        context['categories'] = []
+        categories = Category.objects.filter(is_in_homepage=True).order_by('-homepage_priority')
+        # TODO: do the following queries with SQL instead of the Django imcomplete ORM. F
         # 5 products of each category
-        product_list = []
-        missing_product_quantity_per_category = []
-        for category in context['categories']:
-            category_products = Product.objects.filter(category=category)[:MAX_PRODUCTS_PER_CATEGORY]
-            product_list.extend(category_products)
-            missing_product_quantity_per_category.append(MAX_PRODUCTS_PER_CATEGORY - len(category_products))
-        context['product_list'] = product_list
-        # zip the categories with the quantity of products that are missing to complete the 5 products
-        context['categories'] = zip(context['categories'], missing_product_quantity_per_category)
+        product_list = Product.objects.all()
+        product_list_per_category = []
+        for category in categories:
+            tmp_list = product_list.filter(
+                may_be_in_homepage=True, category=category
+            )
+            product_without_discount = [p for p in tmp_list if not p.has_discount]
+            product_list_per_category.extend(
+                product_without_discount[:MAX_PRODUCTS_PER_CATEGORY]
+            )
+            if len(product_without_discount) > 0:
+                context['categories'].append(category)
+        context['product_list'] = product_list_per_category
+        # products with offers
+        product_with_offer_list = []
+        for product in product_list.filter(limited_time_offer__isnull=False):
+            if product.has_discount:
+                product_with_offer_list.append(product)
+        context['product_with_offer_list'] = product_with_offer_list
         return context
 
 

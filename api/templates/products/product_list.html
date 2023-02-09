@@ -35,6 +35,16 @@ Produtos
                 {% for product in product_list %}
                 <div class="card">
                     <a href="{{ product.get_absolute_url }}">
+                        {% if product.has_discount == True %}
+                        <div style="width: 100%; padding-top: 10px; background-color: rgba(0,0,0,0.9); position: absolute; top: 0%; left: 0%; transform: translate(-0%, -0%);">
+                            {% if product.is_discount_absolute %}
+                            <h6 style="color: white; text-align: center;">-R${{ product.absolute_discount }}</h6>
+                            {% else %}
+                            <h6 style="color: white; text-align: center;">-{{ product.relative_discount }}%</h6>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+
                         {% if product.image %}
                         <img class="card-img-top" src="{% static '' %}{{product.image}}" alt="">
                         {% else %}
@@ -46,9 +56,16 @@ Produtos
                         <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
                             <h5 class="card-title">{{ product.name }}</h5>
                         </a>
+                        {% if product.has_discount == True %}
+                        <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
+                            <p class="card-text" style="font-size:80%;"><s>De: R${{ product.base_price }}</s></p>
+                            <p class="card-text font-weight-bold">Por: R${{ product.price }}</p>
+                        </a>
+                        {% else %}
                         <a class="text-decoration-none text-dark" href="{{ product.get_absolute_url }}">
                             <p class="card-text font-weight-bold">R$ {{ product.price }}</p>
                         </a>
+                        {% endif %}
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:"3" and not forloop.last %}

@@ -9,6 +9,16 @@
 <div class="container my-3">
     <div class="row">
         <div class="col-lg-3 mb-3 mb-lg-0">
+            {% if product.has_discount == True %}
+            <div style="width: 50%; padding-top: 10px; background-color: rgba(0,0,0,0.9); position: absolute; top: 2%; left: 25%; transform: translate(-0%, -0%);">
+                {% if product.is_discount_absolute %}
+                <h6 style="color: white; text-align: center;">-R${{ product.absolute_discount }}</h6>
+                {% else %}
+                <h6 style="color: white; text-align: center;">-{{ product.relative_discount }}%</h6>
+                {% endif %}
+            </div>
+            {% endif %}
+
             {% if product.image %}
             <img class="container-fluid" src="{% static '' %}{{ product.image }}" alt="">
             {% else %}
@@ -17,7 +27,12 @@
         </div>
         <div class="col-lg-9">
             <h1 class="font-weight-bold">{{ product.name }}</h1>
+            {% if product.has_discount == True %}
+            <h4><s>De: R${{ product.base_price }}</s></h4>
+            <h2>Por: R${{ product.price }}</h2>
+            {% else %}
             <h2>R$ {{ product.price }}</h2>
+            {% endif %}
             <p>{{ product.description }}</p>
             <p>
                 Voltar para o catálogo de
