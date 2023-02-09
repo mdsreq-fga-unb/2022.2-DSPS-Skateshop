@@ -39,6 +39,11 @@
 <!--                    <li class="nav-item">-->
 <!--                        <a href="{% url 'cart:detail' %}" class="nav-link lead mr-4 font-weight-bold">Carrinho</a>-->
 <!--                    </li>-->
+
+                    <li class="nav-item">
+                        <a href="{% url 'pages:faq' %}" class="nav-link lead mr-4 font-weight-bold">Fac</a>
+                    </li>
+
                     {% if user.is_authenticated %}
                         <li class="nav-item">
                             <p class="nav-link lead mr-4 font-weight-bold">Olá, {{ user.username }}</p>

@@ -2,6 +2,7 @@ from django.views.generic import TemplateView
 
 from company.models import Company
 from products.models import Category, Product
+from faq.models import FAQ
 
 
 MAX_PRODUCTS_PER_CATEGORY = 5
@@ -44,4 +45,12 @@ class ContactPageView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(ContactPageView, self).get_context_data(**kwargs)
         context["company"] = Company.objects.all().first()
+        return context
+    
+class FaqPageView(TemplateView):
+    template_name = 'faq.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(FaqPageView, self).get_context_data(**kwargs)
+        context["faqs"] = FAQ.objects.all()
         return context
