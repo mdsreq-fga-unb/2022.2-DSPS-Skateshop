@@ -10,3 +10,4 @@ django_environ==0.4.5
 whitenoise==5.2.0
 psycopg2==2.9.5
 gunicorn==20.0.4
+getnet-py==1.1.1
