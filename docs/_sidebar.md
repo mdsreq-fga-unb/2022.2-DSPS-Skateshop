@@ -49,5 +49,7 @@
   - [Especificação Mostrar Produtos](pages/EspecificacaoUC/Esp5.md)
   - [Especificação Editar Dados da Loja](pages/EspecificacaoUC/Esp6.md)
   - [Relatório Kanban](pages/PrintsKanbanUnidade4.md)
+  - [Feedback Cliente MVP 1](pages/VideoClienteUnidade4.md)
+  - [Vídeo de Apresentação das Entregas](pages/VideoEntrega4.md)
 
 ---
