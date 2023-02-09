@@ -3,6 +3,7 @@ from django.views.generic import TemplateView
 from company.models import Company
 from products.models import Category, Product
 from faq.models import FAQ
+from files.models import FileModel
 
 
 MAX_PRODUCTS_PER_CATEGORY = 5
@@ -27,6 +28,7 @@ class HomePageView(TemplateView):
         context['product_list'] = product_list
         # zip the categories with the quantity of products that are missing to complete the 5 products
         context['categories'] = zip(context['categories'], missing_product_quantity_per_category)
+        context["files"] = FileModel.active.all()
         return context
 
 
@@ -46,7 +48,8 @@ class ContactPageView(TemplateView):
         context = super(ContactPageView, self).get_context_data(**kwargs)
         context["company"] = Company.objects.all().first()
         return context
-    
+
+
 class FaqPageView(TemplateView):
     template_name = 'faq.html'
 

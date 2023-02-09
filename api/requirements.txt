@@ -10,3 +10,5 @@ django_environ==0.4.5
 whitenoise==5.2.0
 psycopg2==2.9.5
 gunicorn==20.0.4
+django-storages==1.13.2
+boto3==1.26.67

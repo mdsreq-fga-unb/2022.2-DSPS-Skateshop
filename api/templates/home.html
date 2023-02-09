@@ -50,13 +50,6 @@
                 <p class="card-text font-weight-bold"></p>
             </a>
         </div>
-
-        <!-- {% for i in "x"|rjust:n %}
-            {% if n != 0 %}
-            <div class="card border-0"></div>
-            {% endif %}
-        {% endfor %} -->
-
     </div>
 
     </div>
@@ -100,6 +93,13 @@
         <br>
     </div>
 
+    <div id="patrocinados">
+        <h1>Patrocinados</h1>
+        {% for file in files  %}
+            <div>{{ file.title }}</div>
+            <img src="{{ file.file.url }}"/>
+        {% endfor %}
+    </div>
 
 </div>
 
