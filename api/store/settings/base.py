@@ -26,12 +26,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    "storages",
     # Local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
     'products.apps.ProductsConfig',
     'company.apps.CompanyConfig',
     # 'cart.apps.CartConfig',
+    'faq.apps.FaqConfig',
+    'files.apps.FilesConfig'
 ]
 
 MIDDLEWARE = [
@@ -171,3 +174,9 @@ LOGGING = {
 }
 
 DEBUG_PROPAGATE_EXCEPTIONS = True
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+AWS_STORAGE_BUCKET_NAME = "dspskateshop"
+AWS_DEFAULT_ACL = "public-read"

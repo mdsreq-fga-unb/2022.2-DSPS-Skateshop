@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}FAQ{% endblock title %}
+
+{% block content %}
+
+<div class="container my-3">
+    <h1 class="font-weight-bold">Perguntas Frequentes</h1>
+
+    {% for fac in faqs %}
+        
+        <h3>{{fac.id}}. {{ fac.question }}</h3>
+        <p>{{ fac.answer }}</p>
+        
+    {% endfor %}
+</div>
+
+{% endblock content %}
