@@ -49,10 +49,7 @@
   - [Especificação Mostrar Produtos](pages/EspecificacaoUC/Esp5.md)
   - [Especificação Editar Dados da Loja](pages/EspecificacaoUC/Esp6.md)
   - [Relatório Kanban](pages/PrintsKanbanUnidade4.md)
-<<<<<<< HEAD
-=======
-  - [Feedback Cliente MVP 1](pages/VideoClienteUnidade4.md)
->>>>>>> 52e7f0a949c4c5f04259855ec8b16070f32ea0b4
+  - [Feedback Cliente MVP 2](pages/VideoClienteUnidade4.md)
   - [Vídeo de Apresentação das Entregas](pages/VideoEntrega4.md)
 
 ---
