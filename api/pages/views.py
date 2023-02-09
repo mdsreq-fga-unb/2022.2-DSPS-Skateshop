@@ -3,6 +3,7 @@ from django.views.generic import TemplateView
 from company.models import Company
 from products.models import Category, Product
 from faq.models import FAQ
+from files.models import FileModel
 
 
 MAX_PRODUCTS_PER_CATEGORY = 5
@@ -39,6 +40,7 @@ class HomePageView(TemplateView):
             if product.has_discount:
                 product_with_offer_list.append(product)
         context['product_with_offer_list'] = product_with_offer_list
+        context["files"] = FileModel.active.all()
         return context
 
 
@@ -58,7 +60,8 @@ class ContactPageView(TemplateView):
         context = super(ContactPageView, self).get_context_data(**kwargs)
         context["company"] = Company.objects.all().first()
         return context
-    
+
+
 class FaqPageView(TemplateView):
     template_name = 'faq.html'
 

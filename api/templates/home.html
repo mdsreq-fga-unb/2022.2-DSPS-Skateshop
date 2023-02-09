@@ -134,6 +134,13 @@
         <br>
     </div>
 
+    <div id="patrocinados">
+        <h1>Patrocinados</h1>
+        {% for file in files  %}
+            <div>{{ file.title }}</div>
+            <img src="{{ file.file.url }}"/>
+        {% endfor %}
+    </div>
 
 </div>
 
