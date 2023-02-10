@@ -103,7 +103,8 @@ RF (Requisitos Funcionais) ; RNF (Requisitos Não Funcionais)
 | Atividade                    | Método          | Ferramenta             | Entrega                  |
 | :--------------------------- | --------------- | ---------------------- | ------------------------ |
 | Construção da interface      | Pair Programing | HTML, CSS, bootstrap   | Front-end                |
-| Construção da Banco de Dados | Pair Programing | SQLite, Django, Docker | Backend e banco de dados |
+| Construção da Banco de Dados | Pair Programing | Django, Docker, SQLite | Backend e banco de dados |
+| Deploy da aplicação web      | N/A | Docker, PostgreSQL, AWS (Fargate, Aurora RDS, S3, ECR, ECS, ELB, Route 53) | Infraestrutura serveless |
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
