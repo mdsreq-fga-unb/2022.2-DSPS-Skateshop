@@ -18,3 +18,6 @@ Nossa documentação está disponível dentro do nosso GitHub Pages, lá mostram
 <b>
 O site da DSPS SkateShop pode ser encontrado nesse <a href="http://www.dspsskateshop.com.br/">link</a>.</b>
 </b>
+<b>
+O admin do site da DSPS SkateShope pode ser encontrado nesse <a hres="http://www.dspsskateshop.com.br/admin">link.</a>
+</b>
